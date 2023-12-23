@@ -1,0 +1,3501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dd04803a9e9c61fbe6e29211f5a2fa28 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dd04803a9e9c61fbe6e29211f5a2fa28" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dd04803a9e9c61fbe6e29211f5a2fa28 = L.map(
+                "map_dd04803a9e9c61fbe6e29211f5a2fa28",
+                {
+                    center: [30.0, -98.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bf28d67ca1c30a6e380eade87a09ae48 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_bf28d67ca1c30a6e380eade87a09ae48.addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var marker_6412ccab30f33f6fc10cc8f1331b5a75 = L.marker(
+                [30.78361, -98.66194],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_2b2b86d8c5c31136009792d551afcef6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6412ccab30f33f6fc10cc8f1331b5a75.setIcon(icon_2b2b86d8c5c31136009792d551afcef6);
+        
+    
+        var popup_e6bde53cafb19aeb53c0493429cea3a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f69ed29bcc2fc33e7db80d10ad543d = $(`<div id="html_a1f69ed29bcc2fc33e7db80d10ad543d" style="width: 100.0%; height: 100.0%;">['LLANO MUNICIPAL AIRPORT, TX US', 19.845934212070294]</div>`)[0];
+                popup_e6bde53cafb19aeb53c0493429cea3a7.setContent(html_a1f69ed29bcc2fc33e7db80d10ad543d);
+            
+        
+
+        marker_6412ccab30f33f6fc10cc8f1331b5a75.bindPopup(popup_e6bde53cafb19aeb53c0493429cea3a7)
+        ;
+
+        
+    
+    
+            var marker_003d1808d7029949d411976fe4f66c2e = L.marker(
+                [30.38333, -103.68333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3d59eff775adc9cc49483a5847cc9032 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_003d1808d7029949d411976fe4f66c2e.setIcon(icon_3d59eff775adc9cc49483a5847cc9032);
+        
+    
+        var popup_a26b56c7a1ad9e5f5a3f8edf6946282c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4503a6b7cf2ff6a0153c7ae4002cb0e8 = $(`<div id="html_4503a6b7cf2ff6a0153c7ae4002cb0e8" style="width: 100.0%; height: 100.0%;">['ALPINE CASPARIS MUNICIPAL AIRPORT, TX US', 16.98946685494054]</div>`)[0];
+                popup_a26b56c7a1ad9e5f5a3f8edf6946282c.setContent(html_4503a6b7cf2ff6a0153c7ae4002cb0e8);
+            
+        
+
+        marker_003d1808d7029949d411976fe4f66c2e.bindPopup(popup_a26b56c7a1ad9e5f5a3f8edf6946282c)
+        ;
+
+        
+    
+    
+            var marker_3bfca584bdf743c3c34a8b9494ab5a9d = L.marker(
+                [33.17528, -97.82833],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_993f6503844551925992def8613e3437 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3bfca584bdf743c3c34a8b9494ab5a9d.setIcon(icon_993f6503844551925992def8613e3437);
+        
+    
+        var popup_fe4f43c72df488e81c55aae9106b26b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdff5530f6dc32f2ab8f6956928c0442 = $(`<div id="html_bdff5530f6dc32f2ab8f6956928c0442" style="width: 100.0%; height: 100.0%;">['BRIDGEPORT MUNICIPAL AIRPORT, TX US', 17.89034357206496]</div>`)[0];
+                popup_fe4f43c72df488e81c55aae9106b26b3.setContent(html_bdff5530f6dc32f2ab8f6956928c0442);
+            
+        
+
+        marker_3bfca584bdf743c3c34a8b9494ab5a9d.bindPopup(popup_fe4f43c72df488e81c55aae9106b26b3)
+        ;
+
+        
+    
+    
+            var marker_7d7ef8a4e54cdbfd6c2bcf46c71ba409 = L.marker(
+                [27.20667, -98.12111],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_9badc23974fb2cfe913516a7761327e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d7ef8a4e54cdbfd6c2bcf46c71ba409.setIcon(icon_9badc23974fb2cfe913516a7761327e1);
+        
+    
+        var popup_df6ad3e862e582c96c99742eb1d84acb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cea3925b307205ebf6bb75addf15f90 = $(`<div id="html_5cea3925b307205ebf6bb75addf15f90" style="width: 100.0%; height: 100.0%;">['FALFURRIAS BROOKS CO AIRPORT, TX US', 21.51477935054119]</div>`)[0];
+                popup_df6ad3e862e582c96c99742eb1d84acb.setContent(html_5cea3925b307205ebf6bb75addf15f90);
+            
+        
+
+        marker_7d7ef8a4e54cdbfd6c2bcf46c71ba409.bindPopup(popup_df6ad3e862e582c96c99742eb1d84acb)
+        ;
+
+        
+    
+    
+            var marker_554e69fbe4c2cd843a1fa5598c8c58cc = L.marker(
+                [32.2125, -101.52139],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_abba912ee40e69cad1f39e65c6d93659 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_554e69fbe4c2cd843a1fa5598c8c58cc.setIcon(icon_abba912ee40e69cad1f39e65c6d93659);
+        
+    
+        var popup_16ec4eada6e2fb5cf06818d33ab68b01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7922ba720bbb37199edd32289f17aa22 = $(`<div id="html_7922ba720bbb37199edd32289f17aa22" style="width: 100.0%; height: 100.0%;">['BIG SPRING MCMAHON WRINKLE AIRPORT, TX US', 18.206461266930102]</div>`)[0];
+                popup_16ec4eada6e2fb5cf06818d33ab68b01.setContent(html_7922ba720bbb37199edd32289f17aa22);
+            
+        
+
+        marker_554e69fbe4c2cd843a1fa5598c8c58cc.bindPopup(popup_16ec4eada6e2fb5cf06818d33ab68b01)
+        ;
+
+        
+    
+    
+            var marker_cbd226ec3f6c988fbc8694ee13931e6b = L.marker(
+                [28.97306, -95.86333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_585230ff87dbd4286a3993fb4c5fff5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbd226ec3f6c988fbc8694ee13931e6b.setIcon(icon_585230ff87dbd4286a3993fb4c5fff5a);
+        
+    
+        var popup_723ab5ceb977ce8333c887851d4625e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e605112b914143069d7106f96149b07e = $(`<div id="html_e605112b914143069d7106f96149b07e" style="width: 100.0%; height: 100.0%;">['BAY CITY MUNICIPAL AIRPORT, TX US', 20.354385559789026]</div>`)[0];
+                popup_723ab5ceb977ce8333c887851d4625e3.setContent(html_e605112b914143069d7106f96149b07e);
+            
+        
+
+        marker_cbd226ec3f6c988fbc8694ee13931e6b.bindPopup(popup_723ab5ceb977ce8333c887851d4625e3)
+        ;
+
+        
+    
+    
+            var marker_bc96f61a77eac5ce3f9ed8e3a159b7ec = L.marker(
+                [26.44194, -98.12944],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_47e80d50301c14a2e717cf69cd0ec2c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc96f61a77eac5ce3f9ed8e3a159b7ec.setIcon(icon_47e80d50301c14a2e717cf69cd0ec2c4);
+        
+    
+        var popup_8aa18a64269bedc6de20293ef7d2926d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_715a8a32bb9209d3296d1f52e1f0aeb3 = $(`<div id="html_715a8a32bb9209d3296d1f52e1f0aeb3" style="width: 100.0%; height: 100.0%;">['EDINBURG INTERNATIONAL AIRPORT, TX US', 22.09486149977698]</div>`)[0];
+                popup_8aa18a64269bedc6de20293ef7d2926d.setContent(html_715a8a32bb9209d3296d1f52e1f0aeb3);
+            
+        
+
+        marker_bc96f61a77eac5ce3f9ed8e3a159b7ec.bindPopup(popup_8aa18a64269bedc6de20293ef7d2926d)
+        ;
+
+        
+    
+    
+            var marker_11beeb53bbf8adcb017b8be20e133093 = L.marker(
+                [32.44444, -97.81694],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_0494186201013e5aa0e0ae9ec1e03e97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_11beeb53bbf8adcb017b8be20e133093.setIcon(icon_0494186201013e5aa0e0ae9ec1e03e97);
+        
+    
+        var popup_d7786910e2830ecad047af4fd9a6040b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58eeb3d70d92f07e1996dc6ab06e6aeb = $(`<div id="html_58eeb3d70d92f07e1996dc6ab06e6aeb" style="width: 100.0%; height: 100.0%;">['GRANBURY MUNICIPAL AIRPORT, TX US', 18.771202093273867]</div>`)[0];
+                popup_d7786910e2830ecad047af4fd9a6040b.setContent(html_58eeb3d70d92f07e1996dc6ab06e6aeb);
+            
+        
+
+        marker_11beeb53bbf8adcb017b8be20e133093.bindPopup(popup_d7786910e2830ecad047af4fd9a6040b)
+        ;
+
+        
+    
+    
+            var marker_13e6cc3a9046a31aee914bf51c09bfd7 = L.marker(
+                [33.71417, -96.67361],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_707788fe441d95b66d2c794a250421f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_13e6cc3a9046a31aee914bf51c09bfd7.setIcon(icon_707788fe441d95b66d2c794a250421f3);
+        
+    
+        var popup_fbf32a9d43519e7a610a6c8a3645f498 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cdbdb42e7a1472e506ad246c339fbf7 = $(`<div id="html_6cdbdb42e7a1472e506ad246c339fbf7" style="width: 100.0%; height: 100.0%;">['GRAYSON CO AIRPORT SHERMAN DENISON, TX US', 17.35952071774271]</div>`)[0];
+                popup_fbf32a9d43519e7a610a6c8a3645f498.setContent(html_6cdbdb42e7a1472e506ad246c339fbf7);
+            
+        
+
+        marker_13e6cc3a9046a31aee914bf51c09bfd7.bindPopup(popup_fbf32a9d43519e7a610a6c8a3645f498)
+        ;
+
+        
+    
+    
+            var marker_dfa7a0aef16f847420d3716cfba20cfd = L.marker(
+                [32.74694, -96.53056],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3b69a8c2afed7cc2dd6b380f9b073b10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_dfa7a0aef16f847420d3716cfba20cfd.setIcon(icon_3b69a8c2afed7cc2dd6b380f9b073b10);
+        
+    
+        var popup_e2867e1a91791b4d5be896297dd27618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_819a7b02b794ac72d0cf1a33eb5e38bc = $(`<div id="html_819a7b02b794ac72d0cf1a33eb5e38bc" style="width: 100.0%; height: 100.0%;">['MESQUITE METRO AIRPORT, TX US', 17.371109040074593]</div>`)[0];
+                popup_e2867e1a91791b4d5be896297dd27618.setContent(html_819a7b02b794ac72d0cf1a33eb5e38bc);
+            
+        
+
+        marker_dfa7a0aef16f847420d3716cfba20cfd.bindPopup(popup_e2867e1a91791b4d5be896297dd27618)
+        ;
+
+        
+    
+    
+            var marker_02dcb9720fbec3cf3d7c8f70331bb11a = L.marker(
+                [32.08361, -97.09722],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_956c518caba79b4671d216d82d122812 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_02dcb9720fbec3cf3d7c8f70331bb11a.setIcon(icon_956c518caba79b4671d216d82d122812);
+        
+    
+        var popup_948ef4122dff80b6c07c6dd6a71ad996 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86db5750f20fc720366b2aa6304096d4 = $(`<div id="html_86db5750f20fc720366b2aa6304096d4" style="width: 100.0%; height: 100.0%;">['HILLSBORO MUNICIPAL AIRPORT, TX US', 19.155190909452116]</div>`)[0];
+                popup_948ef4122dff80b6c07c6dd6a71ad996.setContent(html_86db5750f20fc720366b2aa6304096d4);
+            
+        
+
+        marker_02dcb9720fbec3cf3d7c8f70331bb11a.bindPopup(popup_948ef4122dff80b6c07c6dd6a71ad996)
+        ;
+
+        
+    
+    
+            var marker_2c303b127f85fe2b36dc70c5c20aea52 = L.marker(
+                [30.88556, -94.03472],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_524d27e2843c9914c581333edd9f83b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2c303b127f85fe2b36dc70c5c20aea52.setIcon(icon_524d27e2843c9914c581333edd9f83b6);
+        
+    
+        var popup_36bbd9132ad59ed3c6a6857fc993ddfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eebe7a3b2001c9bfb1d74c94f8f4f7c5 = $(`<div id="html_eebe7a3b2001c9bfb1d74c94f8f4f7c5" style="width: 100.0%; height: 100.0%;">['JASPER CO BELL FIELD AIRPORT, TX US', 19.117647058823383]</div>`)[0];
+                popup_36bbd9132ad59ed3c6a6857fc993ddfc.setContent(html_eebe7a3b2001c9bfb1d74c94f8f4f7c5);
+            
+        
+
+        marker_2c303b127f85fe2b36dc70c5c20aea52.bindPopup(popup_36bbd9132ad59ed3c6a6857fc993ddfc)
+        ;
+
+        
+    
+    
+            var marker_2f2b82e96860f2a87ee8885ebebf7264 = L.marker(
+                [31.86944, -95.2175],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_76099334298d4d6619a5d8ca0b93fc8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2f2b82e96860f2a87ee8885ebebf7264.setIcon(icon_76099334298d4d6619a5d8ca0b93fc8c);
+        
+    
+        var popup_21e29ad4d14908925ed6e15581b44bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33ccb0a79a5dae698e8a55088e588eac = $(`<div id="html_33ccb0a79a5dae698e8a55088e588eac" style="width: 100.0%; height: 100.0%;">['JACKSONVILLE CHEROKEE CO AIRPORT, TX US', 18.548732439208845]</div>`)[0];
+                popup_21e29ad4d14908925ed6e15581b44bb5.setContent(html_33ccb0a79a5dae698e8a55088e588eac);
+            
+        
+
+        marker_2f2b82e96860f2a87ee8885ebebf7264.bindPopup(popup_21e29ad4d14908925ed6e15581b44bb5)
+        ;
+
+        
+    
+    
+            var marker_b5b0a4fee36629b6c9bc2eb17e1c07b3 = L.marker(
+                [32.45611, -96.9125],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1f8e05d81cad6abaadf21c39b0fd3424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b5b0a4fee36629b6c9bc2eb17e1c07b3.setIcon(icon_1f8e05d81cad6abaadf21c39b0fd3424);
+        
+    
+        var popup_cb312c854e3602c52640bdbbcd583904 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dbb3008bda7e39bcd585476848d5840 = $(`<div id="html_3dbb3008bda7e39bcd585476848d5840" style="width: 100.0%; height: 100.0%;">['MID WAY REGIONAL AIRPORT MIDLOTHIAN WAXAHACHIE, TX US', 18.727331705083056]</div>`)[0];
+                popup_cb312c854e3602c52640bdbbcd583904.setContent(html_3dbb3008bda7e39bcd585476848d5840);
+            
+        
+
+        marker_b5b0a4fee36629b6c9bc2eb17e1c07b3.bindPopup(popup_cb312c854e3602c52640bdbbcd583904)
+        ;
+
+        
+    
+    
+            var marker_59a0cd79e995a9b79c7575d8d4fb7bc9 = L.marker(
+                [30.87194, -96.62222],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_d0a91f5cc3930bbd38fc259209beafe3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_59a0cd79e995a9b79c7575d8d4fb7bc9.setIcon(icon_d0a91f5cc3930bbd38fc259209beafe3);
+        
+    
+        var popup_43c901127b4f37e1a9c48b386a75781d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c08387e6a1f72fe9610f61bd0eee6909 = $(`<div id="html_c08387e6a1f72fe9610f61bd0eee6909" style="width: 100.0%; height: 100.0%;">['HEARNE MUNICIPAL AIRPORT, TX US', 22.436092290789365]</div>`)[0];
+                popup_43c901127b4f37e1a9c48b386a75781d.setContent(html_c08387e6a1f72fe9610f61bd0eee6909);
+            
+        
+
+        marker_59a0cd79e995a9b79c7575d8d4fb7bc9.bindPopup(popup_43c901127b4f37e1a9c48b386a75781d)
+        ;
+
+        
+    
+    
+            var marker_afed00eb17504b48773b51abe47997b8 = L.marker(
+                [33.25444, -97.58056],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_22e11196189be3e9a35974e7d7d00f73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_afed00eb17504b48773b51abe47997b8.setIcon(icon_22e11196189be3e9a35974e7d7d00f73);
+        
+    
+        var popup_3a036f2ec9a630ce5004f2ff6f73e370 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf429f62dba333ebaf8f3a29f06f3383 = $(`<div id="html_bf429f62dba333ebaf8f3a29f06f3383" style="width: 100.0%; height: 100.0%;">['DECATUR MUNICIPAL AIRPORT, TX US', 18.389984101748784]</div>`)[0];
+                popup_3a036f2ec9a630ce5004f2ff6f73e370.setContent(html_bf429f62dba333ebaf8f3a29f06f3383);
+            
+        
+
+        marker_afed00eb17504b48773b51abe47997b8.bindPopup(popup_3a036f2ec9a630ce5004f2ff6f73e370)
+        ;
+
+        
+    
+    
+            var marker_33d07189c7efc27adb658ddd519da8e9 = L.marker(
+                [33.09556, -94.96139],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_6f7167cff559ea89e7da77f80308ce11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_33d07189c7efc27adb658ddd519da8e9.setIcon(icon_6f7167cff559ea89e7da77f80308ce11);
+        
+    
+        var popup_51e85760d9dc425e5562babc9103ff8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e80c3e49f0d383251183c8cc3be27b7c = $(`<div id="html_e80c3e49f0d383251183c8cc3be27b7c" style="width: 100.0%; height: 100.0%;">['MOUNT PLEASANT AIRPORT, TX US', 17.766166679421538]</div>`)[0];
+                popup_51e85760d9dc425e5562babc9103ff8a.setContent(html_e80c3e49f0d383251183c8cc3be27b7c);
+            
+        
+
+        marker_33d07189c7efc27adb658ddd519da8e9.bindPopup(popup_51e85760d9dc425e5562babc9103ff8a)
+        ;
+
+        
+    
+    
+            var marker_e285132bc3ec81844da44f1217bca04c = L.marker(
+                [35.61306, -100.99639],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_25796235d9d0fe33f4f32cd1226f2eb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e285132bc3ec81844da44f1217bca04c.setIcon(icon_25796235d9d0fe33f4f32cd1226f2eb2);
+        
+    
+        var popup_487337bdedce106e7ee2f4589facef6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_062eba7b9a246ef386afe7de3d9511cd = $(`<div id="html_062eba7b9a246ef386afe7de3d9511cd" style="width: 100.0%; height: 100.0%;">['PERRY LEFORS FIELD AIRPORT, TX US', 15.019938414164747]</div>`)[0];
+                popup_487337bdedce106e7ee2f4589facef6a.setContent(html_062eba7b9a246ef386afe7de3d9511cd);
+            
+        
+
+        marker_e285132bc3ec81844da44f1217bca04c.bindPopup(popup_487337bdedce106e7ee2f4589facef6a)
+        ;
+
+        
+    
+    
+            var marker_b90da5a6067d20edc42ea9feeb4deabb = L.marker(
+                [31.77972, -95.70639],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_abe59966e17491b973f7ae669fa30add = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b90da5a6067d20edc42ea9feeb4deabb.setIcon(icon_abe59966e17491b973f7ae669fa30add);
+        
+    
+        var popup_29d4bc684fbfdd8ec1ef5ce9ccc09000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_264e3f6f86279296c66e82248403ef10 = $(`<div id="html_264e3f6f86279296c66e82248403ef10" style="width: 100.0%; height: 100.0%;">['PALESTINE MUNICIPAL AIRPORT, TX US', 19.412527656977254]</div>`)[0];
+                popup_29d4bc684fbfdd8ec1ef5ce9ccc09000.setContent(html_264e3f6f86279296c66e82248403ef10);
+            
+        
+
+        marker_b90da5a6067d20edc42ea9feeb4deabb.bindPopup(popup_29d4bc684fbfdd8ec1ef5ce9ccc09000)
+        ;
+
+        
+    
+    
+            var marker_aaa13f64920f660a114ddb572053e8b3 = L.marker(
+                [36.41389, -100.74972],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_f213b244ca5e17cc28a429b261544dc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aaa13f64920f660a114ddb572053e8b3.setIcon(icon_f213b244ca5e17cc28a429b261544dc5);
+        
+    
+        var popup_57175560b9fc2f9fdce5f47bf9431e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1902bf0318b7d43e192564b35d53f8be = $(`<div id="html_1902bf0318b7d43e192564b35d53f8be" style="width: 100.0%; height: 100.0%;">['PERRYTON OCHILTREE CO AIRPORT, TX US', 13.271088513981953]</div>`)[0];
+                popup_57175560b9fc2f9fdce5f47bf9431e1f.setContent(html_1902bf0318b7d43e192564b35d53f8be);
+            
+        
+
+        marker_aaa13f64920f660a114ddb572053e8b3.bindPopup(popup_57175560b9fc2f9fdce5f47bf9431e1f)
+        ;
+
+        
+    
+    
+            var marker_d79f87e15b49dd384e166fa173531875 = L.marker(
+                [27.77861, -97.69056],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_e83cf7e8a3d1deb32f5efe21f90a0d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d79f87e15b49dd384e166fa173531875.setIcon(icon_e83cf7e8a3d1deb32f5efe21f90a0d5b);
+        
+    
+        var popup_4876f8c14ef4902b50bf3eec71273fff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c9e52afcde66c836d748d9e55ac2829 = $(`<div id="html_3c9e52afcde66c836d748d9e55ac2829" style="width: 100.0%; height: 100.0%;">['ROBSTOWN NUECES CO AIRPORT, TX US', 22.003017309829996]</div>`)[0];
+                popup_4876f8c14ef4902b50bf3eec71273fff.setContent(html_3c9e52afcde66c836d748d9e55ac2829);
+            
+        
+
+        marker_d79f87e15b49dd384e166fa173531875.bindPopup(popup_4876f8c14ef4902b50bf3eec71273fff)
+        ;
+
+        
+    
+    
+            var marker_c6a55109cb9d7ccd9bbc2230b12bf8ff = L.marker(
+                [33.11, -98.55528],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_323cf47eb4d1da6401775b8e33d10b1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c6a55109cb9d7ccd9bbc2230b12bf8ff.setIcon(icon_323cf47eb4d1da6401775b8e33d10b1e);
+        
+    
+        var popup_26e513d477dc9a41bd817991f2fc708e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4209fd713f69507b6e149597d240646 = $(`<div id="html_b4209fd713f69507b6e149597d240646" style="width: 100.0%; height: 100.0%;">['GRAHAM MUNICIPAL AIRPORT, TX US', 18.24231506324263]</div>`)[0];
+                popup_26e513d477dc9a41bd817991f2fc708e.setContent(html_b4209fd713f69507b6e149597d240646);
+            
+        
+
+        marker_c6a55109cb9d7ccd9bbc2230b12bf8ff.bindPopup(popup_26e513d477dc9a41bd817991f2fc708e)
+        ;
+
+        
+    
+    
+            var marker_c594320e969cfceafa43ca57bfe43b65 = L.marker(
+                [32.35389, -97.43389],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_82c693f67febe3ad1a4e26d955b38180 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c594320e969cfceafa43ca57bfe43b65.setIcon(icon_82c693f67febe3ad1a4e26d955b38180);
+        
+    
+        var popup_0316c4597f11c8bb4cd82ae4ed70e514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13780dd31e707f898f0b8ac29e6cc879 = $(`<div id="html_13780dd31e707f898f0b8ac29e6cc879" style="width: 100.0%; height: 100.0%;">['CLEBURNE MUNICIPAL AIRPORT, TX US', 19.55750019664918]</div>`)[0];
+                popup_0316c4597f11c8bb4cd82ae4ed70e514.setContent(html_13780dd31e707f898f0b8ac29e6cc879);
+            
+        
+
+        marker_c594320e969cfceafa43ca57bfe43b65.bindPopup(popup_0316c4597f11c8bb4cd82ae4ed70e514)
+        ;
+
+        
+    
+    
+            var marker_0e10f87bd3f339dbed23722b279eb040 = L.marker(
+                [30.24333, -98.90972],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_ad75a040fc36e81f9eeb45cfc1d55447 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0e10f87bd3f339dbed23722b279eb040.setIcon(icon_ad75a040fc36e81f9eeb45cfc1d55447);
+        
+    
+        var popup_92145e4eddff0f6dc2e20aea3fedc97a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cbc4521bbcd6d4b5f0b4d49402fbd79 = $(`<div id="html_7cbc4521bbcd6d4b5f0b4d49402fbd79" style="width: 100.0%; height: 100.0%;">['FREDERICKSBURG GILLESPIE CO AIRPORT, TX US', 18.63258624049887]</div>`)[0];
+                popup_92145e4eddff0f6dc2e20aea3fedc97a.setContent(html_7cbc4521bbcd6d4b5f0b4d49402fbd79);
+            
+        
+
+        marker_0e10f87bd3f339dbed23722b279eb040.bindPopup(popup_92145e4eddff0f6dc2e20aea3fedc97a)
+        ;
+
+        
+    
+    
+            var marker_d74fa99994cbff63da2ab680160b4219 = L.marker(
+                [28.35, -97.717],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_0a3d3616ba37cf4c2ff0501afffa8052 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d74fa99994cbff63da2ab680160b4219.setIcon(icon_0a3d3616ba37cf4c2ff0501afffa8052);
+        
+    
+        var popup_b0ce6e6e65908c15117a9ecaed4c107b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce852f0d646f6f035c29c3f187574909 = $(`<div id="html_ce852f0d646f6f035c29c3f187574909" style="width: 100.0%; height: 100.0%;">['BEEVILLE MUNICIPAL AIRPORT, TX US', 20.696875717895598]</div>`)[0];
+                popup_b0ce6e6e65908c15117a9ecaed4c107b.setContent(html_ce852f0d646f6f035c29c3f187574909);
+            
+        
+
+        marker_d74fa99994cbff63da2ab680160b4219.bindPopup(popup_b0ce6e6e65908c15117a9ecaed4c107b)
+        ;
+
+        
+    
+    
+            var marker_e9c1c09c58fcac93120abb1ce2931069 = L.marker(
+                [34.85, -102.333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_c8b6c55ef26fbe4e47af6d6c0bb1f347 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9c1c09c58fcac93120abb1ce2931069.setIcon(icon_c8b6c55ef26fbe4e47af6d6c0bb1f347);
+        
+    
+        var popup_4c188dc4da55e70a8a18158130d7617e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20515092159b6d6dac723ea694ffedc5 = $(`<div id="html_20515092159b6d6dac723ea694ffedc5" style="width: 100.0%; height: 100.0%;">['HEREFORD MUNICIPAL AIRPORT, TX US', 14.962840155499688]</div>`)[0];
+                popup_4c188dc4da55e70a8a18158130d7617e.setContent(html_20515092159b6d6dac723ea694ffedc5);
+            
+        
+
+        marker_e9c1c09c58fcac93120abb1ce2931069.bindPopup(popup_4c188dc4da55e70a8a18158130d7617e)
+        ;
+
+        
+    
+    
+            var marker_327d9db27d1917a13d0b99c646fea046 = L.marker(
+                [28.95, -98.517],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_62f00d5595c5d4dd7e98e876c1d4d387 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_327d9db27d1917a13d0b99c646fea046.setIcon(icon_62f00d5595c5d4dd7e98e876c1d4d387);
+        
+    
+        var popup_e180b42d09299269d815348ba60eab42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e74afbb020d119a346d1ef3104f146f6 = $(`<div id="html_e74afbb020d119a346d1ef3104f146f6" style="width: 100.0%; height: 100.0%;">['PLEASANTON MUNICIPAL AIRPORT, TX US', 21.684973124561758]</div>`)[0];
+                popup_e180b42d09299269d815348ba60eab42.setContent(html_e74afbb020d119a346d1ef3104f146f6);
+            
+        
+
+        marker_327d9db27d1917a13d0b99c646fea046.bindPopup(popup_e180b42d09299269d815348ba60eab42)
+        ;
+
+        
+    
+    
+            var marker_40dc57e52eb5a40a80e20b6223a17700 = L.marker(
+                [33.85, -98.483],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_43f6dace993091be68d3857d90d2e9ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_40dc57e52eb5a40a80e20b6223a17700.setIcon(icon_43f6dace993091be68d3857d90d2e9ee);
+        
+    
+        var popup_9ac5f6662e3bb652667fa2b1f82a903d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b012d3d94bd7b3a643cd1de7a8f970f = $(`<div id="html_7b012d3d94bd7b3a643cd1de7a8f970f" style="width: 100.0%; height: 100.0%;">['KICKAPOO DOWNTOWN AIRPORT, TX US', 16.81255308686135]</div>`)[0];
+                popup_9ac5f6662e3bb652667fa2b1f82a903d.setContent(html_7b012d3d94bd7b3a643cd1de7a8f970f);
+            
+        
+
+        marker_40dc57e52eb5a40a80e20b6223a17700.bindPopup(popup_9ac5f6662e3bb652667fa2b1f82a903d)
+        ;
+
+        
+    
+    
+            var marker_7eb62c5cde823165c86ff8ac61332ffd = L.marker(
+                [30.5, -97.967],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_ecbfb64fa1983f605cf755ada11feea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7eb62c5cde823165c86ff8ac61332ffd.setIcon(icon_ecbfb64fa1983f605cf755ada11feea3);
+        
+    
+        var popup_04254513dafdcaa4bb54ac0c6122722c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1c12e8158b5e0ce007051ac7520f14f = $(`<div id="html_d1c12e8158b5e0ce007051ac7520f14f" style="width: 100.0%; height: 100.0%;">['LAGO VISTA RUSTY ALLEN AIRPORT, TX US', 19.896726132131057]</div>`)[0];
+                popup_04254513dafdcaa4bb54ac0c6122722c.setContent(html_d1c12e8158b5e0ce007051ac7520f14f);
+            
+        
+
+        marker_7eb62c5cde823165c86ff8ac61332ffd.bindPopup(popup_04254513dafdcaa4bb54ac0c6122722c)
+        ;
+
+        
+    
+    
+            var marker_08ee7546cc83768b81cd9e4f37e3ad2d = L.marker(
+                [32.15, -94.85],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_8367d7bb18055b8787776652479ae99e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_08ee7546cc83768b81cd9e4f37e3ad2d.setIcon(icon_8367d7bb18055b8787776652479ae99e);
+        
+    
+        var popup_657fd8db0cec640eb3d0208f3d6b65b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e529a7f258191de0dd9b28e9a26151d = $(`<div id="html_7e529a7f258191de0dd9b28e9a26151d" style="width: 100.0%; height: 100.0%;">['RUSK CO AIRPORT, TX US', 19.636382407598592]</div>`)[0];
+                popup_657fd8db0cec640eb3d0208f3d6b65b5.setContent(html_7e529a7f258191de0dd9b28e9a26151d);
+            
+        
+
+        marker_08ee7546cc83768b81cd9e4f37e3ad2d.bindPopup(popup_657fd8db0cec640eb3d0208f3d6b65b5)
+        ;
+
+        
+    
+    
+            var marker_f19cceae65dc3dd8ee6295aaa79f8c54 = L.marker(
+                [32.717, -98.892],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3e8df03bb92f8d1c351067ef33f550bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f19cceae65dc3dd8ee6295aaa79f8c54.setIcon(icon_3e8df03bb92f8d1c351067ef33f550bc);
+        
+    
+        var popup_4000932180c3096b691f1c734f5f0482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47a1a5193461d7e9fa4507b7edd46fbb = $(`<div id="html_47a1a5193461d7e9fa4507b7edd46fbb" style="width: 100.0%; height: 100.0%;">['STEPHENS CO AIRPORT, TX US', 18.930391547545085]</div>`)[0];
+                popup_4000932180c3096b691f1c734f5f0482.setContent(html_47a1a5193461d7e9fa4507b7edd46fbb);
+            
+        
+
+        marker_f19cceae65dc3dd8ee6295aaa79f8c54.bindPopup(popup_4000932180c3096b691f1c734f5f0482)
+        ;
+
+        
+    
+    
+            var marker_9d47428ef61350614a082a1d3399b7b2 = L.marker(
+                [29.277956, -103.687258],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_e6fe48bcde19e1a115ebf98100bacf32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9d47428ef61350614a082a1d3399b7b2.setIcon(icon_e6fe48bcde19e1a115ebf98100bacf32);
+        
+    
+        var popup_a44cf42b97022f0a675c238f2e4d13da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b43ba55a8d83d48ecac8b4ef0926dcd = $(`<div id="html_4b43ba55a8d83d48ecac8b4ef0926dcd" style="width: 100.0%; height: 100.0%;">['LAJITAS INTERNATIONAL AIRPORT, TX US', 19.52843868069019]</div>`)[0];
+                popup_a44cf42b97022f0a675c238f2e4d13da.setContent(html_4b43ba55a8d83d48ecac8b4ef0926dcd);
+            
+        
+
+        marker_9d47428ef61350614a082a1d3399b7b2.bindPopup(popup_a44cf42b97022f0a675c238f2e4d13da)
+        ;
+
+        
+    
+    
+            var marker_826d2552918535ae4553792ade83fc21 = L.marker(
+                [29.95205, -94.02616],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4891dfd3364009e698879eb943cebd9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_826d2552918535ae4553792ade83fc21.setIcon(icon_4891dfd3364009e698879eb943cebd9a);
+        
+    
+        var popup_c6baa002974ec44d2a8b1ae0e430191f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b23d4f2fb8e6057dffaf4200b69111ef = $(`<div id="html_b23d4f2fb8e6057dffaf4200b69111ef" style="width: 100.0%; height: 100.0%;">['PORT ARTHUR SE TX REGIONAL AIRPORT, TX US', 19.959904638058116]</div>`)[0];
+                popup_c6baa002974ec44d2a8b1ae0e430191f.setContent(html_b23d4f2fb8e6057dffaf4200b69111ef);
+            
+        
+
+        marker_826d2552918535ae4553792ade83fc21.bindPopup(popup_c6baa002974ec44d2a8b1ae0e430191f)
+        ;
+
+        
+    
+    
+            var marker_4d066fdf060b1f20be36430b933dbd15 = L.marker(
+                [29.70887, -98.04585],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_d0f450af04a6e081619c1222da6a11a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d066fdf060b1f20be36430b933dbd15.setIcon(icon_d0f450af04a6e081619c1222da6a11a6);
+        
+    
+        var popup_c7cb8009183861435d4463172a0bad04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ff94b21041a534878fdad508ba3ff9b = $(`<div id="html_8ff94b21041a534878fdad508ba3ff9b" style="width: 100.0%; height: 100.0%;">['NEW BRAUNFELS MUNICIPAL AIRPORT, TX US', 20.42727721956837]</div>`)[0];
+                popup_c7cb8009183861435d4463172a0bad04.setContent(html_8ff94b21041a534878fdad508ba3ff9b);
+            
+        
+
+        marker_4d066fdf060b1f20be36430b933dbd15.bindPopup(popup_c7cb8009183861435d4463172a0bad04)
+        ;
+
+        
+    
+    
+            var marker_1457f2f8983a598a62a024914f3a0e24 = L.marker(
+                [29.27036, -94.86421],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_9788a9839859a5c3bcaf315e62e9e5de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1457f2f8983a598a62a024914f3a0e24.setIcon(icon_9788a9839859a5c3bcaf315e62e9e5de);
+        
+    
+        var popup_b15f289593a7a77017f48c99932ad8ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ed4281d3a510539fbc335e477864941 = $(`<div id="html_0ed4281d3a510539fbc335e477864941" style="width: 100.0%; height: 100.0%;">['GALVESTON SCHOLES FIELD, TX US', 22.414931305625135]</div>`)[0];
+                popup_b15f289593a7a77017f48c99932ad8ee.setContent(html_0ed4281d3a510539fbc335e477864941);
+            
+        
+
+        marker_1457f2f8983a598a62a024914f3a0e24.bindPopup(popup_b15f289593a7a77017f48c99932ad8ee)
+        ;
+
+        
+    
+    
+            var marker_b9d1b3785d42aaac0699aaf9f99ee589 = L.marker(
+                [29.51924, -95.2423],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1a2eeb4650fb5792a3eec97e9a08703b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9d1b3785d42aaac0699aaf9f99ee589.setIcon(icon_1a2eeb4650fb5792a3eec97e9a08703b);
+        
+    
+        var popup_a3273c5771524c27d09c18804b48b23d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77a2dd03e1aef77a41e00bf3a1873748 = $(`<div id="html_77a2dd03e1aef77a41e00bf3a1873748" style="width: 100.0%; height: 100.0%;">['HOUSTON CLOVER FIELD, TX US', 20.980254001391792]</div>`)[0];
+                popup_a3273c5771524c27d09c18804b48b23d.setContent(html_77a2dd03e1aef77a41e00bf3a1873748);
+            
+        
+
+        marker_b9d1b3785d42aaac0699aaf9f99ee589.bindPopup(popup_a3273c5771524c27d09c18804b48b23d)
+        ;
+
+        
+    
+    
+            var marker_75084ade9f33a671c5339df9b6e8ce66 = L.marker(
+                [30.06801, -95.55628],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_c00210577dda41ef8ea13ec8b4c6746a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_75084ade9f33a671c5339df9b6e8ce66.setIcon(icon_c00210577dda41ef8ea13ec8b4c6746a);
+        
+    
+        var popup_bf8f622606502b2ddcbe3742e795273e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4462e5eaaa616d2d6b005f7740f2006d = $(`<div id="html_4462e5eaaa616d2d6b005f7740f2006d" style="width: 100.0%; height: 100.0%;">['HOUSTON HOOKS MEMORIAL AIRPORT, TX US', 20.60356083086051]</div>`)[0];
+                popup_bf8f622606502b2ddcbe3742e795273e.setContent(html_4462e5eaaa616d2d6b005f7740f2006d);
+            
+        
+
+        marker_75084ade9f33a671c5339df9b6e8ce66.bindPopup(popup_bf8f622606502b2ddcbe3742e795273e)
+        ;
+
+        
+    
+    
+            var marker_6f68116aadb9f2875b07ae0df394d90d = L.marker(
+                [29.98438, -95.36072],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_817c4956d6081a67c4dc6523815d7a91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f68116aadb9f2875b07ae0df394d90d.setIcon(icon_817c4956d6081a67c4dc6523815d7a91);
+        
+    
+        var popup_1d1c27676a8eef72c865aa7d48eb6485 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34c60baf00bc2d7eebc6f2ecedce27ad = $(`<div id="html_34c60baf00bc2d7eebc6f2ecedce27ad" style="width: 100.0%; height: 100.0%;">['HOUSTON INTERCONTINENTAL AIRPORT, TX US', 20.719087318999534]</div>`)[0];
+                popup_1d1c27676a8eef72c865aa7d48eb6485.setContent(html_34c60baf00bc2d7eebc6f2ecedce27ad);
+            
+        
+
+        marker_6f68116aadb9f2875b07ae0df394d90d.bindPopup(popup_1d1c27676a8eef72c865aa7d48eb6485)
+        ;
+
+        
+    
+    
+            var marker_237cdad3ddfe4508476bb359e90f0d5a = L.marker(
+                [29.61667, -95.16667],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_dd459d87a192efce3da5f3b0da948a51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_237cdad3ddfe4508476bb359e90f0d5a.setIcon(icon_dd459d87a192efce3da5f3b0da948a51);
+        
+    
+        var popup_7e8b1618a5cbde4bd069528fefa0a0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de7cb53ff3e130cf0fecb5bd772b88fe = $(`<div id="html_de7cb53ff3e130cf0fecb5bd772b88fe" style="width: 100.0%; height: 100.0%;">['HOUSTON ELLINGTON AFB, TX US', 21.17391826923079]</div>`)[0];
+                popup_7e8b1618a5cbde4bd069528fefa0a0c0.setContent(html_de7cb53ff3e130cf0fecb5bd772b88fe);
+            
+        
+
+        marker_237cdad3ddfe4508476bb359e90f0d5a.bindPopup(popup_7e8b1618a5cbde4bd069528fefa0a0c0)
+        ;
+
+        
+    
+    
+            var marker_2a1a8d7138a03cc296327d0ef148e5da = L.marker(
+                [29.64586, -95.28212],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_9cc2810cbdaf00104b77250b026bcb72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a1a8d7138a03cc296327d0ef148e5da.setIcon(icon_9cc2810cbdaf00104b77250b026bcb72);
+        
+    
+        var popup_3e0de2fb91810bdeae83f79d1895b10a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92d579712cfa0a342975fa69961fca8e = $(`<div id="html_92d579712cfa0a342975fa69961fca8e" style="width: 100.0%; height: 100.0%;">['HOUSTON WILLIAM P HOBBY AIRPORT, TX US', 21.28003904343587]</div>`)[0];
+                popup_3e0de2fb91810bdeae83f79d1895b10a.setContent(html_92d579712cfa0a342975fa69961fca8e);
+            
+        
+
+        marker_2a1a8d7138a03cc296327d0ef148e5da.bindPopup(popup_3e0de2fb91810bdeae83f79d1895b10a)
+        ;
+
+        
+    
+    
+            var marker_0d618097e406ff5d0196afd151e135ae = L.marker(
+                [30.36109, -95.41757],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4e9f9d39c81279e0dd1c8290b870a83b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0d618097e406ff5d0196afd151e135ae.setIcon(icon_4e9f9d39c81279e0dd1c8290b870a83b);
+        
+    
+        var popup_e8a8710a1888aec45dfb3a89c728a372 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81097406cee8f6f76bd417b87c6c5eac = $(`<div id="html_81097406cee8f6f76bd417b87c6c5eac" style="width: 100.0%; height: 100.0%;">['CONROE MONTGOMERY CO AIRPORT, TX US', 19.16105466453944]</div>`)[0];
+                popup_e8a8710a1888aec45dfb3a89c728a372.setContent(html_81097406cee8f6f76bd417b87c6c5eac);
+            
+        
+
+        marker_0d618097e406ff5d0196afd151e135ae.bindPopup(popup_e8a8710a1888aec45dfb3a89c728a372)
+        ;
+
+        
+    
+    
+            var marker_dc42b7982143f8b40f7d492b4e82b2e5 = L.marker(
+                [31.23593, -94.75468],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_e2247a0d42d5f9075a001caee08a2741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_dc42b7982143f8b40f7d492b4e82b2e5.setIcon(icon_e2247a0d42d5f9075a001caee08a2741);
+        
+    
+        var popup_afffd74ce999f0c612e71e0c4bd4433a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1a207b651b7bf426288dba079bfb312 = $(`<div id="html_b1a207b651b7bf426288dba079bfb312" style="width: 100.0%; height: 100.0%;">['LUFKIN ANGELINA CO AIRPORT, TX US', 19.327980075575432]</div>`)[0];
+                popup_afffd74ce999f0c612e71e0c4bd4433a.setContent(html_b1a207b651b7bf426288dba079bfb312);
+            
+        
+
+        marker_dc42b7982143f8b40f7d492b4e82b2e5.bindPopup(popup_afffd74ce999f0c612e71e0c4bd4433a)
+        ;
+
+        
+    
+    
+            var marker_26f57f1c5b33df37e7c5fd832401cb9c = L.marker(
+                [30.74432, -95.58657],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_73681538acd03d65be164c7fe04bfbd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26f57f1c5b33df37e7c5fd832401cb9c.setIcon(icon_73681538acd03d65be164c7fe04bfbd8);
+        
+    
+        var popup_1d134aa83024e48747278472b96ff682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d994a3252e2572e4cd54771bdce6f736 = $(`<div id="html_d994a3252e2572e4cd54771bdce6f736" style="width: 100.0%; height: 100.0%;">['HUNTSVILLE MUNICIPAL AIRPORT, TX US', 20.445063555632938]</div>`)[0];
+                popup_1d134aa83024e48747278472b96ff682.setContent(html_d994a3252e2572e4cd54771bdce6f736);
+            
+        
+
+        marker_26f57f1c5b33df37e7c5fd832401cb9c.bindPopup(popup_1d134aa83024e48747278472b96ff682)
+        ;
+
+        
+    
+    
+            var marker_5001cd395168630c80e828ebc8128f40 = L.marker(
+                [32.3587, -95.404],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4e54a414e555b103138e3482ae626812 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5001cd395168630c80e828ebc8128f40.setIcon(icon_4e54a414e555b103138e3482ae626812);
+        
+    
+        var popup_e644e4cf1cea39e0fd1d781cb1dad753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c98fa08d1c5bda6682354632cf9c440 = $(`<div id="html_2c98fa08d1c5bda6682354632cf9c440" style="width: 100.0%; height: 100.0%;">['TYLER POUNDS FIELD, TX US', 18.864374661613414]</div>`)[0];
+                popup_e644e4cf1cea39e0fd1d781cb1dad753.setContent(html_2c98fa08d1c5bda6682354632cf9c440);
+            
+        
+
+        marker_5001cd395168630c80e828ebc8128f40.bindPopup(popup_e644e4cf1cea39e0fd1d781cb1dad753)
+        ;
+
+        
+    
+    
+            var marker_1541763dbb9ba5223a39cf1c4bff9aee = L.marker(
+                [32.03155, -96.39936],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4ea4d9918ecf959ce41784f3898158d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1541763dbb9ba5223a39cf1c4bff9aee.setIcon(icon_4ea4d9918ecf959ce41784f3898158d9);
+        
+    
+        var popup_b79535bd51fd247c375289fb0fb4901d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6f3dd72b840e8c61427fda252b01bbd = $(`<div id="html_b6f3dd72b840e8c61427fda252b01bbd" style="width: 100.0%; height: 100.0%;">['CORSICANA CAMPBELL FIELD, TX US', 18.9859649122807]</div>`)[0];
+                popup_b79535bd51fd247c375289fb0fb4901d.setContent(html_b6f3dd72b840e8c61427fda252b01bbd);
+            
+        
+
+        marker_1541763dbb9ba5223a39cf1c4bff9aee.bindPopup(popup_b79535bd51fd247c375289fb0fb4901d)
+        ;
+
+        
+    
+    
+            var marker_d1edb3563122b2dc24366398e1d2dabf = L.marker(
+                [32.39094, -94.71396],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_a483f102380a162fa16ef013d7200f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d1edb3563122b2dc24366398e1d2dabf.setIcon(icon_a483f102380a162fa16ef013d7200f81);
+        
+    
+        var popup_932ff44392d22bc1bc03a1b70d406fc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd1a7a5724889e18b828740b607b3318 = $(`<div id="html_bd1a7a5724889e18b828740b607b3318" style="width: 100.0%; height: 100.0%;">['LONGVIEW E TX REGIONAL AIRPORT, TX US', 18.53324430029587]</div>`)[0];
+                popup_932ff44392d22bc1bc03a1b70d406fc8.setContent(html_bd1a7a5724889e18b828740b607b3318);
+            
+        
+
+        marker_d1edb3563122b2dc24366398e1d2dabf.bindPopup(popup_932ff44392d22bc1bc03a1b70d406fc8)
+        ;
+
+        
+    
+    
+            var marker_f0273598914bb1a57229b7ffd245b3db = L.marker(
+                [32.65832, -97.09509],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_062b68dd30aab164c16d35d38d1b81b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f0273598914bb1a57229b7ffd245b3db.setIcon(icon_062b68dd30aab164c16d35d38d1b81b6);
+        
+    
+        var popup_aa08d886dac74bc6b55e05ff49af4fff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ce16857ac2f093acd7ad5b56444501f = $(`<div id="html_7ce16857ac2f093acd7ad5b56444501f" style="width: 100.0%; height: 100.0%;">['ARLINGTON MUNICIPAL AIRPORT, TX US', 18.935128983308143]</div>`)[0];
+                popup_aa08d886dac74bc6b55e05ff49af4fff.setContent(html_7ce16857ac2f093acd7ad5b56444501f);
+            
+        
+
+        marker_f0273598914bb1a57229b7ffd245b3db.bindPopup(popup_aa08d886dac74bc6b55e05ff49af4fff)
+        ;
+
+        
+    
+    
+            var marker_aacbc8fdf2be4416039edbe58c2b279b = L.marker(
+                [32.71311, -96.26878],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_131570ec305d051c218a0dc5d1bd0866 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_aacbc8fdf2be4416039edbe58c2b279b.setIcon(icon_131570ec305d051c218a0dc5d1bd0866);
+        
+    
+        var popup_1596c37cbee96da1936ff1be2bd7bd82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c106549029955f135edd2be85f6d2fec = $(`<div id="html_c106549029955f135edd2be85f6d2fec" style="width: 100.0%; height: 100.0%;">['TERRELL MUNICIPAL AIRPORT, TX US', 18.199406418104168]</div>`)[0];
+                popup_1596c37cbee96da1936ff1be2bd7bd82.setContent(html_c106549029955f135edd2be85f6d2fec);
+            
+        
+
+        marker_aacbc8fdf2be4416039edbe58c2b279b.bindPopup(popup_1596c37cbee96da1936ff1be2bd7bd82)
+        ;
+
+        
+    
+    
+            var marker_1bb2d028260c8102d355b76a35015786 = L.marker(
+                [31.57778, -94.70944],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_5ec2709e3fc6374c0be317fc91beb740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1bb2d028260c8102d355b76a35015786.setIcon(icon_5ec2709e3fc6374c0be317fc91beb740);
+        
+    
+        var popup_dc34f5d1e5ee1a0a5f6d78dfd8f9ab37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c87433318342ebdf158711bea27453 = $(`<div id="html_a2c87433318342ebdf158711bea27453" style="width: 100.0%; height: 100.0%;">['NACOGDOCHES A L MANGHAM JR REGIONAL AIRPORT, TX US', 18.333515781791693]</div>`)[0];
+                popup_dc34f5d1e5ee1a0a5f6d78dfd8f9ab37.setContent(html_a2c87433318342ebdf158711bea27453);
+            
+        
+
+        marker_1bb2d028260c8102d355b76a35015786.bindPopup(popup_dc34f5d1e5ee1a0a5f6d78dfd8f9ab37)
+        ;
+
+        
+    
+    
+            var marker_8943c9f9e7aabfe8b1a4028a97ee5dde = L.marker(
+                [25.91459, -97.42314],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_64d2d98353cfd2da70e50e4ea4a7308f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8943c9f9e7aabfe8b1a4028a97ee5dde.setIcon(icon_64d2d98353cfd2da70e50e4ea4a7308f);
+        
+    
+        var popup_df516297e1f47cb86cb5ddebe911f662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20bdcab8b2d2c2995663829a04e0934b = $(`<div id="html_20bdcab8b2d2c2995663829a04e0934b" style="width: 100.0%; height: 100.0%;">['BROWNSVILLE S PADRE ISLAND INTERNATIONAL AIRPORT, TX US', 23.008820868516338]</div>`)[0];
+                popup_df516297e1f47cb86cb5ddebe911f662.setContent(html_20bdcab8b2d2c2995663829a04e0934b);
+            
+        
+
+        marker_8943c9f9e7aabfe8b1a4028a97ee5dde.bindPopup(popup_df516297e1f47cb86cb5ddebe911f662)
+        ;
+
+        
+    
+    
+            var marker_4259581ae0ceb4674a1b476b92536c25 = L.marker(
+                [26.2303, -97.65565],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_6af20a4a3dd8b7319d314779cac258c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4259581ae0ceb4674a1b476b92536c25.setIcon(icon_6af20a4a3dd8b7319d314779cac258c0);
+        
+    
+        var popup_ed708fce41310425be6381406abead1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b55ff4483f3d5a8d7945ea56437cab0c = $(`<div id="html_b55ff4483f3d5a8d7945ea56437cab0c" style="width: 100.0%; height: 100.0%;">['HARLINGEN RIO GRANDE VALLEY INTERNATIONAL AIRPORT, TX US', 22.12592842673872]</div>`)[0];
+                popup_ed708fce41310425be6381406abead1e.setContent(html_b55ff4483f3d5a8d7945ea56437cab0c);
+            
+        
+
+        marker_4259581ae0ceb4674a1b476b92536c25.bindPopup(popup_ed708fce41310425be6381406abead1e)
+        ;
+
+        
+    
+    
+            var marker_978b5bc79fad4b6f1b60c9da1797945d = L.marker(
+                [26.17912, -98.2445],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_d066dfa741ccbdf960a2c852ec3ebb0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_978b5bc79fad4b6f1b60c9da1797945d.setIcon(icon_d066dfa741ccbdf960a2c852ec3ebb0c);
+        
+    
+        var popup_cd707a13cd05441194461873da99e6c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86496dfa7f4e1a4db15b6c8d2f9fe64f = $(`<div id="html_86496dfa7f4e1a4db15b6c8d2f9fe64f" style="width: 100.0%; height: 100.0%;">['MCALLEN MILLER INTERNATIONAL AIRPORT, TX US', 22.491531223267685]</div>`)[0];
+                popup_cd707a13cd05441194461873da99e6c8.setContent(html_86496dfa7f4e1a4db15b6c8d2f9fe64f);
+            
+        
+
+        marker_978b5bc79fad4b6f1b60c9da1797945d.bindPopup(popup_cd707a13cd05441194461873da99e6c8)
+        ;
+
+        
+    
+    
+            var marker_63627834c167347ed5af9f24d8d5fb3b = L.marker(
+                [26.15966, -97.33781],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_5c7bb510f5e30a6275f53eb8f62e63c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63627834c167347ed5af9f24d8d5fb3b.setIcon(icon_5c7bb510f5e30a6275f53eb8f62e63c7);
+        
+    
+        var popup_d199be58adacb82b8960c14e91be5d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a3327ca1d485333dc3a92c355522e41 = $(`<div id="html_6a3327ca1d485333dc3a92c355522e41" style="width: 100.0%; height: 100.0%;">['PORT ISABEL CAMERON CO AIRPORT, TX US', 22.54038397881499]</div>`)[0];
+                popup_d199be58adacb82b8960c14e91be5d90.setContent(html_6a3327ca1d485333dc3a92c355522e41);
+            
+        
+
+        marker_63627834c167347ed5af9f24d8d5fb3b.bindPopup(popup_d199be58adacb82b8960c14e91be5d90)
+        ;
+
+        
+    
+    
+            var marker_51159176f589314bb6eae563c872b607 = L.marker(
+                [27.77335, -97.51302],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_b0ddf014d9e96e92c0a4c55ab52ade4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51159176f589314bb6eae563c872b607.setIcon(icon_b0ddf014d9e96e92c0a4c55ab52ade4e);
+        
+    
+        var popup_60460ecdf031e15e715c2ecb6f6afc43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34853137d6a5376111419aa4de58a2c5 = $(`<div id="html_34853137d6a5376111419aa4de58a2c5" style="width: 100.0%; height: 100.0%;">['CORPUS CHRISTI INTERNATIONAL AIRPORT, TX US', 21.65511999999996]</div>`)[0];
+                popup_60460ecdf031e15e715c2ecb6f6afc43.setContent(html_34853137d6a5376111419aa4de58a2c5);
+            
+        
+
+        marker_51159176f589314bb6eae563c872b607.bindPopup(popup_60460ecdf031e15e715c2ecb6f6afc43)
+        ;
+
+        
+    
+    
+            var marker_a23933fbe379979de76fb3f7e38cff2b = L.marker(
+                [27.68786, -97.29158],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_5f1ec14c2c6ff166c73f777b17bc61ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a23933fbe379979de76fb3f7e38cff2b.setIcon(icon_5f1ec14c2c6ff166c73f777b17bc61ee);
+        
+    
+        var popup_4a45305689f5428603d718cc9955ceb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ea1c449b07fd513b6178e7679834c85 = $(`<div id="html_3ea1c449b07fd513b6178e7679834c85" style="width: 100.0%; height: 100.0%;">['CORPUS CHRISTI NAS, TX US', 22.97158309652592]</div>`)[0];
+                popup_4a45305689f5428603d718cc9955ceb3.setContent(html_3ea1c449b07fd513b6178e7679834c85);
+            
+        
+
+        marker_a23933fbe379979de76fb3f7e38cff2b.bindPopup(popup_4a45305689f5428603d718cc9955ceb3)
+        ;
+
+        
+    
+    
+            var marker_c15ee0d279a2dd51205437cc07011a2d = L.marker(
+                [27.50898, -97.80408],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1801369d36d34431a30fa62c35f639a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c15ee0d279a2dd51205437cc07011a2d.setIcon(icon_1801369d36d34431a30fa62c35f639a7);
+        
+    
+        var popup_9e7746dbfc7d2c4cf88b203c61471278 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f884fac3960ae7bf210ef0d9b6450fd = $(`<div id="html_5f884fac3960ae7bf210ef0d9b6450fd" style="width: 100.0%; height: 100.0%;">['KINGSVILLE NAAS, TX US', 21.379727131215017]</div>`)[0];
+                popup_9e7746dbfc7d2c4cf88b203c61471278.setContent(html_5f884fac3960ae7bf210ef0d9b6450fd);
+            
+        
+
+        marker_c15ee0d279a2dd51205437cc07011a2d.bindPopup(popup_9e7746dbfc7d2c4cf88b203c61471278)
+        ;
+
+        
+    
+    
+            var marker_65a639ed95d59a49b8919be8753a9a4d = L.marker(
+                [27.74131, -98.02507],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_87d2e08b6f04534b03eeb7ea0bdfbaef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_65a639ed95d59a49b8919be8753a9a4d.setIcon(icon_87d2e08b6f04534b03eeb7ea0bdfbaef);
+        
+    
+        var popup_225d269cae60d8e5c8d8be35588b55c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_069a0be98f38da5db98e2952fb4c2a0f = $(`<div id="html_069a0be98f38da5db98e2952fb4c2a0f" style="width: 100.0%; height: 100.0%;">['ALICE INTERNATIONAL AIRPORT, TX US', 21.08649444081109]</div>`)[0];
+                popup_225d269cae60d8e5c8d8be35588b55c9.setContent(html_069a0be98f38da5db98e2952fb4c2a0f);
+            
+        
+
+        marker_65a639ed95d59a49b8919be8753a9a4d.bindPopup(popup_225d269cae60d8e5c8d8be35588b55c9)
+        ;
+
+        
+    
+    
+            var marker_53c4a30bb637ae69c6f7ce310b4f96ae = L.marker(
+                [27.89469, -98.04252],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4a1deaa4bddcf4a915fff2ae3519ee00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_53c4a30bb637ae69c6f7ce310b4f96ae.setIcon(icon_4a1deaa4bddcf4a915fff2ae3519ee00);
+        
+    
+        var popup_2c5b90e782146590a650df580389db2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_225215ce41cfa9b9caf065a729ec32f5 = $(`<div id="html_225215ce41cfa9b9caf065a729ec32f5" style="width: 100.0%; height: 100.0%;">['ORANGE GROVE, TX US', 19.879908791487217]</div>`)[0];
+                popup_2c5b90e782146590a650df580389db2b.setContent(html_225215ce41cfa9b9caf065a729ec32f5);
+            
+        
+
+        marker_53c4a30bb637ae69c6f7ce310b4f96ae.bindPopup(popup_2c5b90e782146590a650df580389db2b)
+        ;
+
+        
+    
+    
+            var marker_5459c3a527331df15ddac9326d90fd58 = L.marker(
+                [27.53333, -99.46667],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_5f4f134c46b665c6f3986089e7bf457a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5459c3a527331df15ddac9326d90fd58.setIcon(icon_5f4f134c46b665c6f3986089e7bf457a);
+        
+    
+        var popup_4de6077e14b71f4b03586c7d416de49b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25934100958f209e353b516f60a2bcb8 = $(`<div id="html_25934100958f209e353b516f60a2bcb8" style="width: 100.0%; height: 100.0%;">['LAREDO INTERNATIONAL AIRPORT, TX US', 22.305623702585446]</div>`)[0];
+                popup_4de6077e14b71f4b03586c7d416de49b.setContent(html_25934100958f209e353b516f60a2bcb8);
+            
+        
+
+        marker_5459c3a527331df15ddac9326d90fd58.bindPopup(popup_4de6077e14b71f4b03586c7d416de49b)
+        ;
+
+        
+    
+    
+            var marker_198721492bf2873ef3c86b0480e7b42e = L.marker(
+                [29.33896, -98.47198],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_b1fd51ca5c3ce1eecaa06faf57585daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_198721492bf2873ef3c86b0480e7b42e.setIcon(icon_b1fd51ca5c3ce1eecaa06faf57585daa);
+        
+    
+        var popup_c68914c3f1ddc69e46b96b6332f7dab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4558423af9e532ef6d1c3cbd6fcfafe4 = $(`<div id="html_4558423af9e532ef6d1c3cbd6fcfafe4" style="width: 100.0%; height: 100.0%;">['SAN ANTONIO STINSON MUNICIPAL AIRPORT, TX US', 21.74932444604589]</div>`)[0];
+                popup_c68914c3f1ddc69e46b96b6332f7dab9.setContent(html_4558423af9e532ef6d1c3cbd6fcfafe4);
+            
+        
+
+        marker_198721492bf2873ef3c86b0480e7b42e.bindPopup(popup_c68914c3f1ddc69e46b96b6332f7dab9)
+        ;
+
+        
+    
+    
+            var marker_b5fda6ddb138bbc271d3e14819d140a4 = L.marker(
+                [28.08366, -97.04669],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1174e0009f42786d6936e722a9115abb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5fda6ddb138bbc271d3e14819d140a4.setIcon(icon_1174e0009f42786d6936e722a9115abb);
+        
+    
+        var popup_66dbd9955898df59f90e05e2113609b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7eed8ecbd136e75be64cd25b4075feb = $(`<div id="html_d7eed8ecbd136e75be64cd25b4075feb" style="width: 100.0%; height: 100.0%;">['ROCKPORT ARANSAS CO AIRPORT, TX US', 21.703881963074075]</div>`)[0];
+                popup_66dbd9955898df59f90e05e2113609b2.setContent(html_d7eed8ecbd136e75be64cd25b4075feb);
+            
+        
+
+        marker_b5fda6ddb138bbc271d3e14819d140a4.bindPopup(popup_66dbd9955898df59f90e05e2113609b2)
+        ;
+
+        
+    
+    
+            var marker_6ef1ef4c431338a2e08348d8697f2d13 = L.marker(
+                [28.45854, -99.22275],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_d16c784a72c6968403b94f7ff992b588 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ef1ef4c431338a2e08348d8697f2d13.setIcon(icon_d16c784a72c6968403b94f7ff992b588);
+        
+    
+        var popup_c5e3458fbcaa3e51acfb088b2f2f674a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_983b0418f579d0c9bae9f3569ffece3a = $(`<div id="html_983b0418f579d0c9bae9f3569ffece3a" style="width: 100.0%; height: 100.0%;">['COTULLA LA SALLE CO AIRPORT, TX US', 22.351956340764023]</div>`)[0];
+                popup_c5e3458fbcaa3e51acfb088b2f2f674a.setContent(html_983b0418f579d0c9bae9f3569ffece3a);
+            
+        
+
+        marker_6ef1ef4c431338a2e08348d8697f2d13.bindPopup(popup_c5e3458fbcaa3e51acfb088b2f2f674a)
+        ;
+
+        
+    
+    
+            var marker_9ff7998bd01c3f5dda331e0c90f6ee8e = L.marker(
+                [29.11536, -95.46323],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_6d1e5dc939cbfdb86c53150501497d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ff7998bd01c3f5dda331e0c90f6ee8e.setIcon(icon_6d1e5dc939cbfdb86c53150501497d0b);
+        
+    
+        var popup_888ca3625e80522cab73e879798fa3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee6c1426258616d7cc3a808b4be0f21a = $(`<div id="html_ee6c1426258616d7cc3a808b4be0f21a" style="width: 100.0%; height: 100.0%;">['ANGLETON LAKE JACKSON BRAZORIA CO AIRPORT, TX US', 20.570456523459153]</div>`)[0];
+                popup_888ca3625e80522cab73e879798fa3e5.setContent(html_ee6c1426258616d7cc3a808b4be0f21a);
+            
+        
+
+        marker_9ff7998bd01c3f5dda331e0c90f6ee8e.bindPopup(popup_888ca3625e80522cab73e879798fa3e5)
+        ;
+
+        
+    
+    
+            var marker_e9d40fde00b04dd0f1a33156c7a412b5 = L.marker(
+                [29.54429, -98.48395],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_7cb122a651982e2aa20d6a003439ae21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9d40fde00b04dd0f1a33156c7a412b5.setIcon(icon_7cb122a651982e2aa20d6a003439ae21);
+        
+    
+        var popup_521491f8d822045e99aa644ebd8c1d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcc5991953d0583d21e0047a9d03ef79 = $(`<div id="html_dcc5991953d0583d21e0047a9d03ef79" style="width: 100.0%; height: 100.0%;">['SAN ANTONIO INTERNATIONAL AIRPORT, TX US', 20.786731634182843]</div>`)[0];
+                popup_521491f8d822045e99aa644ebd8c1d8c.setContent(html_dcc5991953d0583d21e0047a9d03ef79);
+            
+        
+
+        marker_e9d40fde00b04dd0f1a33156c7a412b5.bindPopup(popup_521491f8d822045e99aa644ebd8c1d8c)
+        ;
+
+        
+    
+    
+            var marker_4e1403a6befefba996dcb7f74c842814 = L.marker(
+                [29.36013, -99.17423],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_5b0c652c722d8b426621df8531285a63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e1403a6befefba996dcb7f74c842814.setIcon(icon_5b0c652c722d8b426621df8531285a63);
+        
+    
+        var popup_5db36f72ea746e9f9fc81f21f2e0ca8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3198d28979715753ba288674dffc263f = $(`<div id="html_3198d28979715753ba288674dffc263f" style="width: 100.0%; height: 100.0%;">['HONDO MUNICIPAL AIRPORT, TX US', 20.528541411311487]</div>`)[0];
+                popup_5db36f72ea746e9f9fc81f21f2e0ca8d.setContent(html_3198d28979715753ba288674dffc263f);
+            
+        
+
+        marker_4e1403a6befefba996dcb7f74c842814.bindPopup(popup_5db36f72ea746e9f9fc81f21f2e0ca8d)
+        ;
+
+        
+    
+    
+            var marker_b0d24c5642f6c113bfbb56c1074a104b = L.marker(
+                [29.38333, -98.58333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_85d31510449269cab1385c634dda9900 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0d24c5642f6c113bfbb56c1074a104b.setIcon(icon_85d31510449269cab1385c634dda9900);
+        
+    
+        var popup_33bdb6eb8978d0884a7dea023bbff493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f41a11f1a92b0f29995d014d5f3abde1 = $(`<div id="html_f41a11f1a92b0f29995d014d5f3abde1" style="width: 100.0%; height: 100.0%;">['SAN ANTONIO KELLY FIELD AFB, TX US', 20.823199188366626]</div>`)[0];
+                popup_33bdb6eb8978d0884a7dea023bbff493.setContent(html_f41a11f1a92b0f29995d014d5f3abde1);
+            
+        
+
+        marker_b0d24c5642f6c113bfbb56c1074a104b.bindPopup(popup_33bdb6eb8978d0884a7dea023bbff493)
+        ;
+
+        
+    
+    
+            var marker_4e1fc5e9c66d7a87ae353318b7d219cd = L.marker(
+                [29.5325, -98.2623],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_5d04e1279a56bdba67cfd59d235d545b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e1fc5e9c66d7a87ae353318b7d219cd.setIcon(icon_5d04e1279a56bdba67cfd59d235d545b);
+        
+    
+        var popup_5007bc8d29f707cd6457b38371cb1927 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a4c595dcc4d8bb3f994156b0457366d = $(`<div id="html_2a4c595dcc4d8bb3f994156b0457366d" style="width: 100.0%; height: 100.0%;">['RANDOLPH AFB, TX US', 20.17503178543316]</div>`)[0];
+                popup_5007bc8d29f707cd6457b38371cb1927.setContent(html_2a4c595dcc4d8bb3f994156b0457366d);
+            
+        
+
+        marker_4e1fc5e9c66d7a87ae353318b7d219cd.bindPopup(popup_5007bc8d29f707cd6457b38371cb1927)
+        ;
+
+        
+    
+    
+            var marker_53178d8547debdfd41c4c6650de879e3 = L.marker(
+                [29.98333, -99.08333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_9955a77eb473919fa3fed64f08a6d063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_53178d8547debdfd41c4c6650de879e3.setIcon(icon_9955a77eb473919fa3fed64f08a6d063);
+        
+    
+        var popup_22d823062d1baf96e134cd3499a6ddf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed9b44352d668c565d17d9e984da4a99 = $(`<div id="html_ed9b44352d668c565d17d9e984da4a99" style="width: 100.0%; height: 100.0%;">['KERRVILLE MUNICIPAL AIRPORT, TX US', 18.882887006942756]</div>`)[0];
+                popup_22d823062d1baf96e134cd3499a6ddf5.setContent(html_ed9b44352d668c565d17d9e984da4a99);
+            
+        
+
+        marker_53178d8547debdfd41c4c6650de879e3.bindPopup(popup_22d823062d1baf96e134cd3499a6ddf5)
+        ;
+
+        
+    
+    
+            var marker_861aab84a5402f47c9b56683ad47dffa = L.marker(
+                [29.89083, -97.86444],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_ed9739c6c986473fa897ce05696d1248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_861aab84a5402f47c9b56683ad47dffa.setIcon(icon_ed9739c6c986473fa897ce05696d1248);
+        
+    
+        var popup_9abaa34a29bc28669ffaabf75473f47e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd743fdde07a6c071a0da9f9d4a32dfa = $(`<div id="html_cd743fdde07a6c071a0da9f9d4a32dfa" style="width: 100.0%; height: 100.0%;">['SAN MARCOS MUNICIPAL AIRPORT, TX US', 20.90987849973586]</div>`)[0];
+                popup_9abaa34a29bc28669ffaabf75473f47e.setContent(html_cd743fdde07a6c071a0da9f9d4a32dfa);
+            
+        
+
+        marker_861aab84a5402f47c9b56683ad47dffa.bindPopup(popup_9abaa34a29bc28669ffaabf75473f47e)
+        ;
+
+        
+    
+    
+            var marker_ce87d49fdd3d08db253d397572e9f4d7 = L.marker(
+                [30.18311, -97.67989],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_fb62f7c5f008cbca03e0508275816d0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ce87d49fdd3d08db253d397572e9f4d7.setIcon(icon_fb62f7c5f008cbca03e0508275816d0e);
+        
+    
+        var popup_1afebdc2be397054ecae6fb7bc9bea3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9371ca0dc1c1659d3208a4d9b8e51c25 = $(`<div id="html_9371ca0dc1c1659d3208a4d9b8e51c25" style="width: 100.0%; height: 100.0%;">['AUSTIN BERGSTROM INTERNATIONAL AIRPORT, TX US', 19.81668923493567]</div>`)[0];
+                popup_1afebdc2be397054ecae6fb7bc9bea3e.setContent(html_9371ca0dc1c1659d3208a4d9b8e51c25);
+            
+        
+
+        marker_ce87d49fdd3d08db253d397572e9f4d7.bindPopup(popup_1afebdc2be397054ecae6fb7bc9bea3e)
+        ;
+
+        
+    
+    
+            var marker_0d2f4cff20d2afcc286ab3f51a1a8d4e = L.marker(
+                [33.18286, -96.58988],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_583fc90d04030bedbc418a178e7c0711 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0d2f4cff20d2afcc286ab3f51a1a8d4e.setIcon(icon_583fc90d04030bedbc418a178e7c0711);
+        
+    
+        var popup_0e793661e8212ecfdee31d849354f174 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7072ac9ca0e1fd0e79060f7164640d54 = $(`<div id="html_7072ac9ca0e1fd0e79060f7164640d54" style="width: 100.0%; height: 100.0%;">['MCKINNEY MUNICIPAL AIRPORT, TX US', 17.845887445887332]</div>`)[0];
+                popup_0e793661e8212ecfdee31d849354f174.setContent(html_7072ac9ca0e1fd0e79060f7164640d54);
+            
+        
+
+        marker_0d2f4cff20d2afcc286ab3f51a1a8d4e.bindPopup(popup_0e793661e8212ecfdee31d849354f174)
+        ;
+
+        
+    
+    
+            var marker_8b035cc4f7351885ee9a6c577b89db8d = L.marker(
+                [30.74067, -98.23539],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_c5071cc541c2d50f76d6cd03de4948db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8b035cc4f7351885ee9a6c577b89db8d.setIcon(icon_c5071cc541c2d50f76d6cd03de4948db);
+        
+    
+        var popup_b2190d00cc6327d90ef5216a93d41366 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e68827e0d6f89852f80412a1a3cff2 = $(`<div id="html_10e68827e0d6f89852f80412a1a3cff2" style="width: 100.0%; height: 100.0%;">['BURNET MUNICIPAL AIRPORT, TX US', 19.046214626975402]</div>`)[0];
+                popup_b2190d00cc6327d90ef5216a93d41366.setContent(html_10e68827e0d6f89852f80412a1a3cff2);
+            
+        
+
+        marker_8b035cc4f7351885ee9a6c577b89db8d.bindPopup(popup_b2190d00cc6327d90ef5216a93d41366)
+        ;
+
+        
+    
+    
+            var marker_76416e9de60a29d0d9928c16addcc97c = L.marker(
+                [29.61971, -95.65748],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_c3b09c7b519d1bd5988b4293802ee412 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76416e9de60a29d0d9928c16addcc97c.setIcon(icon_c3b09c7b519d1bd5988b4293802ee412);
+        
+    
+        var popup_9a9567e53b97e9c934c3942dc45f084a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97892c17cf4def4e1035d35253dfe7c0 = $(`<div id="html_97892c17cf4def4e1035d35253dfe7c0" style="width: 100.0%; height: 100.0%;">['HOUSTON SUGARLAND MEM, TX US', 21.281987041036807]</div>`)[0];
+                popup_9a9567e53b97e9c934c3942dc45f084a.setContent(html_97892c17cf4def4e1035d35253dfe7c0);
+            
+        
+
+        marker_76416e9de60a29d0d9928c16addcc97c.bindPopup(popup_9a9567e53b97e9c934c3942dc45f084a)
+        ;
+
+        
+    
+    
+            var marker_ee411f7a31c0628c23be5f8cffc5bacb = L.marker(
+                [30.3208, -97.7604],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_38b27ac9bf0e994bf0255c8c2ecab448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ee411f7a31c0628c23be5f8cffc5bacb.setIcon(icon_38b27ac9bf0e994bf0255c8c2ecab448);
+        
+    
+        var popup_c9b66cf3416e2d458aac1a36e9a24c01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3454e405e0c4f78daea31b39867277e = $(`<div id="html_c3454e405e0c4f78daea31b39867277e" style="width: 100.0%; height: 100.0%;">['AUSTIN CAMP MABRY, TX US', 20.471214188267364]</div>`)[0];
+                popup_c9b66cf3416e2d458aac1a36e9a24c01.setContent(html_c3454e405e0c4f78daea31b39867277e);
+            
+        
+
+        marker_ee411f7a31c0628c23be5f8cffc5bacb.bindPopup(popup_c9b66cf3416e2d458aac1a36e9a24c01)
+        ;
+
+        
+    
+    
+            var marker_f7c7197f707556b3871f7a3803d8fad7 = L.marker(
+                [30.67917, -97.67944],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_7e5afb8b67682fc86ed66ba3444e8a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f7c7197f707556b3871f7a3803d8fad7.setIcon(icon_7e5afb8b67682fc86ed66ba3444e8a90);
+        
+    
+        var popup_090300736477648dfe05544a57d89606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa88b0cf97fc3e70534497e8ffbb6527 = $(`<div id="html_aa88b0cf97fc3e70534497e8ffbb6527" style="width: 100.0%; height: 100.0%;">['GEORGETOWN MUNICIPAL AIRPORT, TX US', 19.771347785108503]</div>`)[0];
+                popup_090300736477648dfe05544a57d89606.setContent(html_aa88b0cf97fc3e70534497e8ffbb6527);
+            
+        
+
+        marker_f7c7197f707556b3871f7a3803d8fad7.bindPopup(popup_090300736477648dfe05544a57d89606)
+        ;
+
+        
+    
+    
+            var marker_b3dcf072b80d957b611e63f15d35367c = L.marker(
+                [28.86245, -96.9301],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3377bde495bf454f0585d10096f9f140 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3dcf072b80d957b611e63f15d35367c.setIcon(icon_3377bde495bf454f0585d10096f9f140);
+        
+    
+        var popup_c33179a235c522f7ec6fef366d3bb46a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a11ff4ba42d38283c602328e201f09d6 = $(`<div id="html_a11ff4ba42d38283c602328e201f09d6" style="width: 100.0%; height: 100.0%;">['VICTORIA REGIONAL AIRPORT, TX US', 20.717132369465812]</div>`)[0];
+                popup_c33179a235c522f7ec6fef366d3bb46a.setContent(html_a11ff4ba42d38283c602328e201f09d6);
+            
+        
+
+        marker_b3dcf072b80d957b611e63f15d35367c.bindPopup(popup_c33179a235c522f7ec6fef366d3bb46a)
+        ;
+
+        
+    
+    
+            var marker_aaf6f09cd6f97cf3cd49be639ca5b5af = L.marker(
+                [33.65139, -97.19694],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_91eab121d742ed181eb0a90f2cc51e5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_aaf6f09cd6f97cf3cd49be639ca5b5af.setIcon(icon_91eab121d742ed181eb0a90f2cc51e5f);
+        
+    
+        var popup_f26b1ebb6f6bb9612c4dd3bf0a9d29b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2519c77af158ecc346b689b0de73633 = $(`<div id="html_e2519c77af158ecc346b689b0de73633" style="width: 100.0%; height: 100.0%;">['GAINESVILLE MUNICIPAL AIRPORT, TX US', 17.23709751964268]</div>`)[0];
+                popup_f26b1ebb6f6bb9612c4dd3bf0a9d29b9.setContent(html_e2519c77af158ecc346b689b0de73633);
+            
+        
+
+        marker_aaf6f09cd6f97cf3cd49be639ca5b5af.bindPopup(popup_f26b1ebb6f6bb9612c4dd3bf0a9d29b9)
+        ;
+
+        
+    
+    
+            var marker_fdabedb114b6fd51cbdba8d11892651f = L.marker(
+                [28.7248, -96.25353],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_6060cb438d4e5b0042ccd1cb00193998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fdabedb114b6fd51cbdba8d11892651f.setIcon(icon_6060cb438d4e5b0042ccd1cb00193998);
+        
+    
+        var popup_4b94c53c393e5293144e46b63d2ce437 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5491a00d74f9775637d6beeaa22386c5 = $(`<div id="html_5491a00d74f9775637d6beeaa22386c5" style="width: 100.0%; height: 100.0%;">['PALACIOS MUNICIPAL AIRPORT, TX US', 21.33912695234286]</div>`)[0];
+                popup_4b94c53c393e5293144e46b63d2ce437.setContent(html_5491a00d74f9775637d6beeaa22386c5);
+            
+        
+
+        marker_fdabedb114b6fd51cbdba8d11892651f.bindPopup(popup_4b94c53c393e5293144e46b63d2ce437)
+        ;
+
+        
+    
+    
+            var marker_6c4196c3cd3b9120560e80130650a093 = L.marker(
+                [31.61796, -97.2283],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_b9e6db54bbafc6182377a609ff1734bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6c4196c3cd3b9120560e80130650a093.setIcon(icon_b9e6db54bbafc6182377a609ff1734bd);
+        
+    
+        var popup_5ecdf6b0c09963409d0d5f5954c6406d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11a721ce44432a08a05df6ea01e46e39 = $(`<div id="html_11a721ce44432a08a05df6ea01e46e39" style="width: 100.0%; height: 100.0%;">['WACO REGIONAL AIRPORT, TX US', 19.452248140635607]</div>`)[0];
+                popup_5ecdf6b0c09963409d0d5f5954c6406d.setContent(html_11a721ce44432a08a05df6ea01e46e39);
+            
+        
+
+        marker_6c4196c3cd3b9120560e80130650a093.bindPopup(popup_5ecdf6b0c09963409d0d5f5954c6406d)
+        ;
+
+        
+    
+    
+            var marker_38e2f84153a1e7a87989af81ce2e2c9d = L.marker(
+                [31.637831, -97.074139],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_c790c7cd0ed25a898a96d8897d7b6d80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38e2f84153a1e7a87989af81ce2e2c9d.setIcon(icon_c790c7cd0ed25a898a96d8897d7b6d80);
+        
+    
+        var popup_df3879333504dd2d939d02fc47d36755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f544924bcdbee05340d1553c1a666bf5 = $(`<div id="html_f544924bcdbee05340d1553c1a666bf5" style="width: 100.0%; height: 100.0%;">['TSTC WACO, TX US', 21.275600921962496]</div>`)[0];
+                popup_df3879333504dd2d939d02fc47d36755.setContent(html_f544924bcdbee05340d1553c1a666bf5);
+            
+        
+
+        marker_38e2f84153a1e7a87989af81ce2e2c9d.bindPopup(popup_df3879333504dd2d939d02fc47d36755)
+        ;
+
+        
+    
+    
+            var marker_cdc40982de059668a8970f5ea29b4de5 = L.marker(
+                [31.48472, -97.31639],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_73a4e4f725c4ad507e9b0a9d0a7e759d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_cdc40982de059668a8970f5ea29b4de5.setIcon(icon_73a4e4f725c4ad507e9b0a9d0a7e759d);
+        
+    
+        var popup_489f49be07d100390bdfd362e00c10b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba0b27257e3d55d7c5a90983cd688154 = $(`<div id="html_ba0b27257e3d55d7c5a90983cd688154" style="width: 100.0%; height: 100.0%;">['WACO MCGREGOR EXECUTIVE AIRPORT, TX US', 19.164795144157853]</div>`)[0];
+                popup_489f49be07d100390bdfd362e00c10b6.setContent(html_ba0b27257e3d55d7c5a90983cd688154);
+            
+        
+
+        marker_cdc40982de059668a8970f5ea29b4de5.bindPopup(popup_489f49be07d100390bdfd362e00c10b6)
+        ;
+
+        
+    
+    
+            var marker_bdd16d4cb4aeb495496b95eaa40a7bc0 = L.marker(
+                [31.13333, -97.71667],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_ed02a835635152e84a26a939480b1fbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bdd16d4cb4aeb495496b95eaa40a7bc0.setIcon(icon_ed02a835635152e84a26a939480b1fbb);
+        
+    
+        var popup_8addea92dc277356678eaea6f0a6dd9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c67f58861dabfed26e1d95828b5e27c3 = $(`<div id="html_c67f58861dabfed26e1d95828b5e27c3" style="width: 100.0%; height: 100.0%;">['FORT HOOD, TX US', 19.1173899708634]</div>`)[0];
+                popup_8addea92dc277356678eaea6f0a6dd9b.setContent(html_c67f58861dabfed26e1d95828b5e27c3);
+            
+        
+
+        marker_bdd16d4cb4aeb495496b95eaa40a7bc0.bindPopup(popup_8addea92dc277356678eaea6f0a6dd9b)
+        ;
+
+        
+    
+    
+            var marker_e545da02499ba6a2a7be3134ec88564b = L.marker(
+                [31.08333, -97.68333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_ba126dd954391e0c84be454a38f4a103 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e545da02499ba6a2a7be3134ec88564b.setIcon(icon_ba126dd954391e0c84be454a38f4a103);
+        
+    
+        var popup_67415bf50e3df284bafa92cf942b1f0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94ecac7317e5dcdc03cdcd96286f477d = $(`<div id="html_94ecac7317e5dcdc03cdcd96286f477d" style="width: 100.0%; height: 100.0%;">['KILLEEN MUNICIPAL AIRPORT, TX US', 19.431170886075943]</div>`)[0];
+                popup_67415bf50e3df284bafa92cf942b1f0d.setContent(html_94ecac7317e5dcdc03cdcd96286f477d);
+            
+        
+
+        marker_e545da02499ba6a2a7be3134ec88564b.bindPopup(popup_67415bf50e3df284bafa92cf942b1f0d)
+        ;
+
+        
+    
+    
+            var marker_c0f03cff172704b99afcff07670419da = L.marker(
+                [31.06667, -97.83333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_b005e582a73f8c9d18b975fbe510e579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c0f03cff172704b99afcff07670419da.setIcon(icon_b005e582a73f8c9d18b975fbe510e579);
+        
+    
+        var popup_5bbd8635d9a2353df3987e39ec5c6bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffd6a6b384395c2a7e190946822f511d = $(`<div id="html_ffd6a6b384395c2a7e190946822f511d" style="width: 100.0%; height: 100.0%;">['ROBERT GRAY ARMY AIR FIELD, TX US', 18.888266922000383]</div>`)[0];
+                popup_5bbd8635d9a2353df3987e39ec5c6bdd.setContent(html_ffd6a6b384395c2a7e190946822f511d);
+            
+        
+
+        marker_c0f03cff172704b99afcff07670419da.bindPopup(popup_5bbd8635d9a2353df3987e39ec5c6bdd)
+        ;
+
+        
+    
+    
+            var marker_ff4d94357f131d7e0c430653a9ae3caf = L.marker(
+                [31.15, -97.41667],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_f13e74bb07b517a85910d2589cc7235b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ff4d94357f131d7e0c430653a9ae3caf.setIcon(icon_f13e74bb07b517a85910d2589cc7235b);
+        
+    
+        var popup_771cfa161158251f014501704f4a7890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a704d12e98d3d191128fb62f1bf13b6 = $(`<div id="html_1a704d12e98d3d191128fb62f1bf13b6" style="width: 100.0%; height: 100.0%;">['TEMPLE DRAUGHTON MIL, TX US', 19.211567588034793]</div>`)[0];
+                popup_771cfa161158251f014501704f4a7890.setContent(html_1a704d12e98d3d191128fb62f1bf13b6);
+            
+        
+
+        marker_ff4d94357f131d7e0c430653a9ae3caf.bindPopup(popup_771cfa161158251f014501704f4a7890)
+        ;
+
+        
+    
+    
+            var marker_5804c91c7f8e06d7f3eb71f067a4952b = L.marker(
+                [32.83839, -96.83583],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_e61a89ae21418270ee608764a2621231 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5804c91c7f8e06d7f3eb71f067a4952b.setIcon(icon_e61a89ae21418270ee608764a2621231);
+        
+    
+        var popup_db87e6e536cf3a4a2c31d79db2689edf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8902d77ac2d5e185385ae0d96e4a0994 = $(`<div id="html_8902d77ac2d5e185385ae0d96e4a0994" style="width: 100.0%; height: 100.0%;">['DALLAS FAA AIRPORT, TX US', 19.157853274249124]</div>`)[0];
+                popup_db87e6e536cf3a4a2c31d79db2689edf.setContent(html_8902d77ac2d5e185385ae0d96e4a0994);
+            
+        
+
+        marker_5804c91c7f8e06d7f3eb71f067a4952b.bindPopup(popup_db87e6e536cf3a4a2c31d79db2689edf)
+        ;
+
+        
+    
+    
+            var marker_63df82e8ab46fc800a7dde30b753a60e = L.marker(
+                [33.63333, -95.45],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3f9dda0bebee907802fa1981a20e1cca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_63df82e8ab46fc800a7dde30b753a60e.setIcon(icon_3f9dda0bebee907802fa1981a20e1cca);
+        
+    
+        var popup_fc8222858156b802c321523b90e78955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_861651ec4fa7731b097063ce40ccd595 = $(`<div id="html_861651ec4fa7731b097063ce40ccd595" style="width: 100.0%; height: 100.0%;">['PARIS, TX US', 17.32550773243887]</div>`)[0];
+                popup_fc8222858156b802c321523b90e78955.setContent(html_861651ec4fa7731b097063ce40ccd595);
+            
+        
+
+        marker_63df82e8ab46fc800a7dde30b753a60e.bindPopup(popup_fc8222858156b802c321523b90e78955)
+        ;
+
+        
+    
+    
+            var marker_c22d911bc4eb612ceb22dc910b57e9d7 = L.marker(
+                [33.06778, -96.06528],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4c3ae28a8de4806ddf6d97d4b534d129 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c22d911bc4eb612ceb22dc910b57e9d7.setIcon(icon_4c3ae28a8de4806ddf6d97d4b534d129);
+        
+    
+        var popup_7313c699443356e25881cb703a899b2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51d56d8ce85ba9fbe25ac6a428214073 = $(`<div id="html_51d56d8ce85ba9fbe25ac6a428214073" style="width: 100.0%; height: 100.0%;">['GREENVILLE MUNICIPAL AIRPORT MAJORS FIELD, TX US', 17.915466045018423]</div>`)[0];
+                popup_7313c699443356e25881cb703a899b2d.setContent(html_51d56d8ce85ba9fbe25ac6a428214073);
+            
+        
+
+        marker_c22d911bc4eb612ceb22dc910b57e9d7.bindPopup(popup_7313c699443356e25881cb703a899b2d)
+        ;
+
+        
+    
+    
+            var marker_9aeb2812c24644d1100508caea426faa = L.marker(
+                [33.20883, -97.19922],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_2bcdf4e5699d72b8a137d0c8443b59b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9aeb2812c24644d1100508caea426faa.setIcon(icon_2bcdf4e5699d72b8a137d0c8443b59b9);
+        
+    
+        var popup_928449871d914590ed4529641d8ce42c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc0ab924c4d416c1cbc71831a7f6870 = $(`<div id="html_ccc0ab924c4d416c1cbc71831a7f6870" style="width: 100.0%; height: 100.0%;">['DENTON MUNICPAL AIRPORT, TX US', 17.983039478727463]</div>`)[0];
+                popup_928449871d914590ed4529641d8ce42c.setContent(html_ccc0ab924c4d416c1cbc71831a7f6870);
+            
+        
+
+        marker_9aeb2812c24644d1100508caea426faa.bindPopup(popup_928449871d914590ed4529641d8ce42c)
+        ;
+
+        
+    
+    
+            var marker_6774f798646ef3651728ac6e63dc0850 = L.marker(
+                [32.89744, -97.02196],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1b47d89abe64ce01198bbf104e6825f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6774f798646ef3651728ac6e63dc0850.setIcon(icon_1b47d89abe64ce01198bbf104e6825f8);
+        
+    
+        var popup_3c768d6986e012d9e9c59612b680cf37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_262a7d7903a741d109ea1a0b2ef68314 = $(`<div id="html_262a7d7903a741d109ea1a0b2ef68314" style="width: 100.0%; height: 100.0%;">['DAL FTW WSCMO AIRPORT, TX US', 19.279913706756975]</div>`)[0];
+                popup_3c768d6986e012d9e9c59612b680cf37.setContent(html_262a7d7903a741d109ea1a0b2ef68314);
+            
+        
+
+        marker_6774f798646ef3651728ac6e63dc0850.bindPopup(popup_3c768d6986e012d9e9c59612b680cf37)
+        ;
+
+        
+    
+    
+            var marker_89d4fde227cffab7aafd08e061e48a01 = L.marker(
+                [32.565, -97.30806],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_707cd42f99e0361c4846dcac44ac7652 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_89d4fde227cffab7aafd08e061e48a01.setIcon(icon_707cd42f99e0361c4846dcac44ac7652);
+        
+    
+        var popup_b03716ed812d56c95a781b6d375f77da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50472a0a8fe5a0c949aaacc595632133 = $(`<div id="html_50472a0a8fe5a0c949aaacc595632133" style="width: 100.0%; height: 100.0%;">['DALLAS FORT WORTH SPINKS AIRPORT, TX US', 17.87294103604681]</div>`)[0];
+                popup_b03716ed812d56c95a781b6d375f77da.setContent(html_50472a0a8fe5a0c949aaacc595632133);
+            
+        
+
+        marker_89d4fde227cffab7aafd08e061e48a01.bindPopup(popup_b03716ed812d56c95a781b6d375f77da)
+        ;
+
+        
+    
+    
+            var marker_ce39f315d1f4de594b483a852cfb22a4 = L.marker(
+                [32.99434, -97.32034],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_859a4054be792a4e271bb9581fe1d3df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ce39f315d1f4de594b483a852cfb22a4.setIcon(icon_859a4054be792a4e271bb9581fe1d3df);
+        
+    
+        var popup_c5618ebb3b4a8be59986ec67cffc79e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ca5be834d48bd09d825a746f4242bb = $(`<div id="html_08ca5be834d48bd09d825a746f4242bb" style="width: 100.0%; height: 100.0%;">['FORT WORTH ALLIANCE AIRPORT, TX US', 18.804942890901902]</div>`)[0];
+                popup_c5618ebb3b4a8be59986ec67cffc79e5.setContent(html_08ca5be834d48bd09d825a746f4242bb);
+            
+        
+
+        marker_ce39f315d1f4de594b483a852cfb22a4.bindPopup(popup_c5618ebb3b4a8be59986ec67cffc79e5)
+        ;
+
+        
+    
+    
+            var marker_ed71e09858c81ff4b8554f0e9b3e0d1e = L.marker(
+                [32.76667, -97.45],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_fa4ff9b454c5790342fc5609feb16a1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ed71e09858c81ff4b8554f0e9b3e0d1e.setIcon(icon_fa4ff9b454c5790342fc5609feb16a1e);
+        
+    
+        var popup_d54978b0debafcb4b7a8849f265c5b3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18f7d9319778a3d41cf52421b08d6d41 = $(`<div id="html_18f7d9319778a3d41cf52421b08d6d41" style="width: 100.0%; height: 100.0%;">['FORT WORTH NAS, TX US', 19.86709507813636]</div>`)[0];
+                popup_d54978b0debafcb4b7a8849f265c5b3c.setContent(html_18f7d9319778a3d41cf52421b08d6d41);
+            
+        
+
+        marker_ed71e09858c81ff4b8554f0e9b3e0d1e.bindPopup(popup_d54978b0debafcb4b7a8849f265c5b3c)
+        ;
+
+        
+    
+    
+            var marker_a4eaeacdb969f1e9d76650e0ee824b9d = L.marker(
+                [32.78155, -98.06023],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_624b5ae6aad84b4a7e81de0f270d9626 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a4eaeacdb969f1e9d76650e0ee824b9d.setIcon(icon_624b5ae6aad84b4a7e81de0f270d9626);
+        
+    
+        var popup_d9ddf3cca9601f60a88ef707b70d891d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31e0ba55c1197b9b0bf870b3a177323 = $(`<div id="html_c31e0ba55c1197b9b0bf870b3a177323" style="width: 100.0%; height: 100.0%;">['MINERAL WELLS AIRPORT, TX US', 18.305829943831053]</div>`)[0];
+                popup_d9ddf3cca9601f60a88ef707b70d891d.setContent(html_c31e0ba55c1197b9b0bf870b3a177323);
+            
+        
+
+        marker_a4eaeacdb969f1e9d76650e0ee824b9d.bindPopup(popup_d9ddf3cca9601f60a88ef707b70d891d)
+        ;
+
+        
+    
+    
+            var marker_c644b2d16a408262b257ab46e8885f49 = L.marker(
+                [32.96861, -96.83639],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_2effbf1d4179efc26973f78774f90bff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c644b2d16a408262b257ab46e8885f49.setIcon(icon_2effbf1d4179efc26973f78774f90bff);
+        
+    
+        var popup_cce5775b3a58ace244bc900a1a0f8b6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b2d281fcb1d02d35549c34487aaa436 = $(`<div id="html_7b2d281fcb1d02d35549c34487aaa436" style="width: 100.0%; height: 100.0%;">['DALLAS ADDISON AIRPORT, TX US', 18.90469945355201]</div>`)[0];
+                popup_cce5775b3a58ace244bc900a1a0f8b6d.setContent(html_7b2d281fcb1d02d35549c34487aaa436);
+            
+        
+
+        marker_c644b2d16a408262b257ab46e8885f49.bindPopup(popup_cce5775b3a58ace244bc900a1a0f8b6d)
+        ;
+
+        
+    
+    
+            var marker_13d2a09a0251663bc2968c75fb6c975b = L.marker(
+                [32.67816, -96.86771],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_8919dcc4c6ff907c8f26e6bb33a85c47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_13d2a09a0251663bc2968c75fb6c975b.setIcon(icon_8919dcc4c6ff907c8f26e6bb33a85c47);
+        
+    
+        var popup_4fd634b2c280fd3460ec8ba4ab89c5b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf3c21c96335cf76222477f2d4bc4977 = $(`<div id="html_cf3c21c96335cf76222477f2d4bc4977" style="width: 100.0%; height: 100.0%;">['DALLAS REDBIRD AIRPORT, TX US', 18.632526676829208]</div>`)[0];
+                popup_4fd634b2c280fd3460ec8ba4ab89c5b9.setContent(html_cf3c21c96335cf76222477f2d4bc4977);
+            
+        
+
+        marker_13d2a09a0251663bc2968c75fb6c975b.bindPopup(popup_4fd634b2c280fd3460ec8ba4ab89c5b9)
+        ;
+
+        
+    
+    
+            var marker_800dac27b29d274703b533f18715d81d = L.marker(
+                [32.21528, -98.1775],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3a372d53ed54948251d3010f67450af8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_800dac27b29d274703b533f18715d81d.setIcon(icon_3a372d53ed54948251d3010f67450af8);
+        
+    
+        var popup_71fccc6faeae3bf2970a226d8e11e921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07323a4a4653704a09a9c335ab116cba = $(`<div id="html_07323a4a4653704a09a9c335ab116cba" style="width: 100.0%; height: 100.0%;">['STEPHENVILLE CLARK FIELD, TX US', 18.83357602697729]</div>`)[0];
+                popup_71fccc6faeae3bf2970a226d8e11e921.setContent(html_07323a4a4653704a09a9c335ab116cba);
+            
+        
+
+        marker_800dac27b29d274703b533f18715d81d.bindPopup(popup_71fccc6faeae3bf2970a226d8e11e921)
+        ;
+
+        
+    
+    
+            var marker_2a5008f2e3bc237507dc3d0048598891 = L.marker(
+                [29.3784, -100.92704],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_a4e4aef0a4985e9b0bba2d6a0a56b394 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a5008f2e3bc237507dc3d0048598891.setIcon(icon_a4e4aef0a4985e9b0bba2d6a0a56b394);
+        
+    
+        var popup_590292fccaa62b102533ed0db9fc2301 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3effa45e1c0d7017829608908987401f = $(`<div id="html_3effa45e1c0d7017829608908987401f" style="width: 100.0%; height: 100.0%;">['DEL RIO INTERNATIONAL AIRPORT, TX US', 21.782921810699595]</div>`)[0];
+                popup_590292fccaa62b102533ed0db9fc2301.setContent(html_3effa45e1c0d7017829608908987401f);
+            
+        
+
+        marker_2a5008f2e3bc237507dc3d0048598891.bindPopup(popup_590292fccaa62b102533ed0db9fc2301)
+        ;
+
+        
+    
+    
+            var marker_d266f23195dacdbbb20bff22d1d482fd = L.marker(
+                [29.36667, -100.78333],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_bd5f30ac73a32f7d042be16ce44a54ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d266f23195dacdbbb20bff22d1d482fd.setIcon(icon_bd5f30ac73a32f7d042be16ce44a54ac);
+        
+    
+        var popup_d10ceaa270153888b650a20969483fef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf8f5a85f501285c18c612b3791cff9c = $(`<div id="html_cf8f5a85f501285c18c612b3791cff9c" style="width: 100.0%; height: 100.0%;">['DEL RIO LAUGHLIN AFB, TX US', 21.290000867227306]</div>`)[0];
+                popup_d10ceaa270153888b650a20969483fef.setContent(html_cf8f5a85f501285c18c612b3791cff9c);
+            
+        
+
+        marker_d266f23195dacdbbb20bff22d1d482fd.bindPopup(popup_d10ceaa270153888b650a20969483fef)
+        ;
+
+        
+    
+    
+            var marker_8074f559372a467b2a1318c398033515 = L.marker(
+                [30.048172, -102.21266],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_0c037eb9fe97e63ec9a453f729b7fd4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8074f559372a467b2a1318c398033515.setIcon(icon_0c037eb9fe97e63ec9a453f729b7fd4a);
+        
+    
+        var popup_0fac8e8b57a54739e49dcbee4cf7115e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc0c3410b3d4fb12d93df680c5a59c9 = $(`<div id="html_8dc0c3410b3d4fb12d93df680c5a59c9" style="width: 100.0%; height: 100.0%;">['DRYDEN TERRELL CO AIRPORT, TX US', 19.544151376146797]</div>`)[0];
+                popup_0fac8e8b57a54739e49dcbee4cf7115e.setContent(html_8dc0c3410b3d4fb12d93df680c5a59c9);
+            
+        
+
+        marker_8074f559372a467b2a1318c398033515.bindPopup(popup_0fac8e8b57a54739e49dcbee4cf7115e)
+        ;
+
+        
+    
+    
+            var marker_4e54a4c6d302787e0cfb6e654a3593f6 = L.marker(
+                [30.91193, -102.91714],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_41a11d668590aa586770849b459af944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_4e54a4c6d302787e0cfb6e654a3593f6.setIcon(icon_41a11d668590aa586770849b459af944);
+        
+    
+        var popup_179cc89e56407d8a9417135219b76e1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be8cae76356434a1d75c7fa4b6421d02 = $(`<div id="html_be8cae76356434a1d75c7fa4b6421d02" style="width: 100.0%; height: 100.0%;">['FORT STOCKTON PECOS CO AIRPORT, TX US', 18.647980898993065]</div>`)[0];
+                popup_179cc89e56407d8a9417135219b76e1a.setContent(html_be8cae76356434a1d75c7fa4b6421d02);
+            
+        
+
+        marker_4e54a4c6d302787e0cfb6e654a3593f6.bindPopup(popup_179cc89e56407d8a9417135219b76e1a)
+        ;
+
+        
+    
+    
+            var marker_b1b12871d01c0e1fe987e776296416e0 = L.marker(
+                [31.832739, -104.809025],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_7c173a969a9c152e29fee1c4da8b3af8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b1b12871d01c0e1fe987e776296416e0.setIcon(icon_7c173a969a9c152e29fee1c4da8b3af8);
+        
+    
+        var popup_bfe2c193ff6ad7c33b76f6315abeec57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff5da6e28ce1b96328515e1e69b78d31 = $(`<div id="html_ff5da6e28ce1b96328515e1e69b78d31" style="width: 100.0%; height: 100.0%;">['PINE SPRINGS GUADALUPE MOUNTAINS NATIONAL PARK, TX US', 16.21469065812171]</div>`)[0];
+                popup_bfe2c193ff6ad7c33b76f6315abeec57.setContent(html_ff5da6e28ce1b96328515e1e69b78d31);
+            
+        
+
+        marker_b1b12871d01c0e1fe987e776296416e0.bindPopup(popup_bfe2c193ff6ad7c33b76f6315abeec57)
+        ;
+
+        
+    
+    
+            var marker_19f89fac18b0d22419a5c071db01486b = L.marker(
+                [31.35172, -100.4948],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_4f96481b38635be3729842418801c1f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_19f89fac18b0d22419a5c071db01486b.setIcon(icon_4f96481b38635be3729842418801c1f2);
+        
+    
+        var popup_35f2e4a1df89ac643b54923563f5b9ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e836a79e42a43d6b88a9264dc12a777 = $(`<div id="html_3e836a79e42a43d6b88a9264dc12a777" style="width: 100.0%; height: 100.0%;">['SAN ANGELO MATHIS FIELD AIRPORT, TX US', 18.926717691563173]</div>`)[0];
+                popup_35f2e4a1df89ac643b54923563f5b9ad.setContent(html_3e836a79e42a43d6b88a9264dc12a777);
+            
+        
+
+        marker_19f89fac18b0d22419a5c071db01486b.bindPopup(popup_35f2e4a1df89ac643b54923563f5b9ad)
+        ;
+
+        
+    
+    
+            var marker_36ce506db9ace4daa918434641c871b5 = L.marker(
+                [35.9, -100.4],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_99d79b57ab8f4a1c275d1ca7c223085c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36ce506db9ace4daa918434641c871b5.setIcon(icon_99d79b57ab8f4a1c275d1ca7c223085c);
+        
+    
+        var popup_1f113d53834a88f0aac78e50c66b8bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21aa762a0f08a888e9bcd98562a1a3be = $(`<div id="html_21aa762a0f08a888e9bcd98562a1a3be" style="width: 100.0%; height: 100.0%;">['CANADIAN, TX US', 14.72321532436315]</div>`)[0];
+                popup_1f113d53834a88f0aac78e50c66b8bb8.setContent(html_21aa762a0f08a888e9bcd98562a1a3be);
+            
+        
+
+        marker_36ce506db9ace4daa918434641c871b5.bindPopup(popup_1f113d53834a88f0aac78e50c66b8bb8)
+        ;
+
+        
+    
+    
+            var marker_fe77c0add93143a743ab0ee55f0225de = L.marker(
+                [30.37139, -104.01667],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_da7fb6a6fd00415a53492a6ece90c484 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fe77c0add93143a743ab0ee55f0225de.setIcon(icon_da7fb6a6fd00415a53492a6ece90c484);
+        
+    
+        var popup_17bf0e1cd7cabd175655122d87aacad7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_799c474664c062fa6e985b2d45377247 = $(`<div id="html_799c474664c062fa6e985b2d45377247" style="width: 100.0%; height: 100.0%;">['MARFA MUNICIPAL AIRPORT, TX US', 15.445574771108788]</div>`)[0];
+                popup_17bf0e1cd7cabd175655122d87aacad7.setContent(html_799c474664c062fa6e985b2d45377247);
+            
+        
+
+        marker_fe77c0add93143a743ab0ee55f0225de.bindPopup(popup_17bf0e1cd7cabd175655122d87aacad7)
+        ;
+
+        
+    
+    
+            var marker_8fd1f268da31515a7e8099a6e553c2df = L.marker(
+                [31.925, -102.38743],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1ea3a71b39e8523c3be115227d6d1456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8fd1f268da31515a7e8099a6e553c2df.setIcon(icon_1ea3a71b39e8523c3be115227d6d1456);
+        
+    
+        var popup_f771343270d981bdfbb6aa721f464aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9736e49d4da34d98e4b6b40f641e598 = $(`<div id="html_e9736e49d4da34d98e4b6b40f641e598" style="width: 100.0%; height: 100.0%;">['ODESSA SCHLEMEYER FIELD, TX US', 18.167559769167312]</div>`)[0];
+                popup_f771343270d981bdfbb6aa721f464aa2.setContent(html_e9736e49d4da34d98e4b6b40f641e598);
+            
+        
+
+        marker_8fd1f268da31515a7e8099a6e553c2df.bindPopup(popup_f771343270d981bdfbb6aa721f464aa2)
+        ;
+
+        
+    
+    
+            var marker_f02163d634ec0f21c223d30b53fb0454 = L.marker(
+                [31.94754, -102.20859],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_80505b3b0381d0233030eaf0d06cd79b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f02163d634ec0f21c223d30b53fb0454.setIcon(icon_80505b3b0381d0233030eaf0d06cd79b);
+        
+    
+        var popup_40ad23fa47af2fa33ccf37b437868a1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929c5ad619a41d6ffc2383bf2bf9bb46 = $(`<div id="html_929c5ad619a41d6ffc2383bf2bf9bb46" style="width: 100.0%; height: 100.0%;">['MIDLAND INTERNATIONAL AIRPORT, TX US', 17.53524780819453]</div>`)[0];
+                popup_40ad23fa47af2fa33ccf37b437868a1a.setContent(html_929c5ad619a41d6ffc2383bf2bf9bb46);
+            
+        
+
+        marker_f02163d634ec0f21c223d30b53fb0454.bindPopup(popup_40ad23fa47af2fa33ccf37b437868a1a)
+        ;
+
+        
+    
+    
+            var marker_e1fb8a70ddbe354687245805e73f66ab = L.marker(
+                [31.78011, -103.2017],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_6df9e9d7811e77a5c3b6e5b2b68c57d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e1fb8a70ddbe354687245805e73f66ab.setIcon(icon_6df9e9d7811e77a5c3b6e5b2b68c57d6);
+        
+    
+        var popup_edcb095763303c71659d86ab1c82ed5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e470b4bcb7cedaae0e9fe56677b3ca2 = $(`<div id="html_1e470b4bcb7cedaae0e9fe56677b3ca2" style="width: 100.0%; height: 100.0%;">['WINK FAA AIRPORT, TX US', 18.00945400467389]</div>`)[0];
+                popup_edcb095763303c71659d86ab1c82ed5a.setContent(html_1e470b4bcb7cedaae0e9fe56677b3ca2);
+            
+        
+
+        marker_e1fb8a70ddbe354687245805e73f66ab.bindPopup(popup_edcb095763303c71659d86ab1c82ed5a)
+        ;
+
+        
+    
+    
+            var marker_6f0ce7b541d25667da4bd335aca52add = L.marker(
+                [32.41063, -99.68208],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3c64d92878699491ed7ed9f5b51edad4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6f0ce7b541d25667da4bd335aca52add.setIcon(icon_3c64d92878699491ed7ed9f5b51edad4);
+        
+    
+        var popup_f673df77e7d813793378f3140e28d9df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46ab7e2be9f775c9a9fe85d5280916cc = $(`<div id="html_46ab7e2be9f775c9a9fe85d5280916cc" style="width: 100.0%; height: 100.0%;">['ABILENE REGIONAL AIRPORT, TX US', 18.520195838433306]</div>`)[0];
+                popup_f673df77e7d813793378f3140e28d9df.setContent(html_46ab7e2be9f775c9a9fe85d5280916cc);
+            
+        
+
+        marker_6f0ce7b541d25667da4bd335aca52add.bindPopup(popup_f673df77e7d813793378f3140e28d9df)
+        ;
+
+        
+    
+    
+            var marker_e8169e8005f825248190be8a19cae5a0 = L.marker(
+                [31.8, -98.95],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_db1fac1f46e50a73147309ffc263f995 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e8169e8005f825248190be8a19cae5a0.setIcon(icon_db1fac1f46e50a73147309ffc263f995);
+        
+    
+        var popup_238fef28b8967e87cac2c8a9cd3fbf9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b68d7267353d64b7cb36ce802212a707 = $(`<div id="html_b68d7267353d64b7cb36ce802212a707" style="width: 100.0%; height: 100.0%;">['BROWNWOOD MUNICIPAL AIRPORT, TX US', 16.36625691456668]</div>`)[0];
+                popup_238fef28b8967e87cac2c8a9cd3fbf9d.setContent(html_b68d7267353d64b7cb36ce802212a707);
+            
+        
+
+        marker_e8169e8005f825248190be8a19cae5a0.bindPopup(popup_238fef28b8967e87cac2c8a9cd3fbf9d)
+        ;
+
+        
+    
+    
+            var marker_aba1f35ab782cfee8c8d300b31a4d677 = L.marker(
+                [33.66578, -101.8233],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_39950b6621e4c11b8316bfcc95efe90a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_aba1f35ab782cfee8c8d300b31a4d677.setIcon(icon_39950b6621e4c11b8316bfcc95efe90a);
+        
+    
+        var popup_9d1406f84af5b622f0b57d4626573085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6184a908eb61bcf0619bdd44df32e53d = $(`<div id="html_6184a908eb61bcf0619bdd44df32e53d" style="width: 100.0%; height: 100.0%;">['LUBBOCK INTERNATIONAL AIRPORT, TX US', 15.91955467768003]</div>`)[0];
+                popup_9d1406f84af5b622f0b57d4626573085.setContent(html_6184a908eb61bcf0619bdd44df32e53d);
+            
+        
+
+        marker_aba1f35ab782cfee8c8d300b31a4d677.bindPopup(popup_9d1406f84af5b622f0b57d4626573085)
+        ;
+
+        
+    
+    
+            var marker_55ea32bd1becfd67f2b505336db98024 = L.marker(
+                [31.81234, -106.37737],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_d447f436fd07b811dbc9b188a6f59fd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_55ea32bd1becfd67f2b505336db98024.setIcon(icon_d447f436fd07b811dbc9b188a6f59fd0);
+        
+    
+        var popup_78d164cefd123cf41a211a2819a64b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88d027fa8ed8c2bf5c87c578cbccb790 = $(`<div id="html_88d027fa8ed8c2bf5c87c578cbccb790" style="width: 100.0%; height: 100.0%;">['EL PASO INTERNATIONAL AIRPORT, TX US', 18.953632531614062]</div>`)[0];
+                popup_78d164cefd123cf41a211a2819a64b86.setContent(html_88d027fa8ed8c2bf5c87c578cbccb790);
+            
+        
+
+        marker_55ea32bd1becfd67f2b505336db98024.bindPopup(popup_78d164cefd123cf41a211a2819a64b86)
+        ;
+
+        
+    
+    
+            var marker_b2e62ce36aef1bd611f2cef8ccd940b3 = L.marker(
+                [31.849528, -106.380039],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_e40b9ff677cd46b560d1fb91df435b79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b2e62ce36aef1bd611f2cef8ccd940b3.setIcon(icon_e40b9ff677cd46b560d1fb91df435b79);
+        
+    
+        var popup_1b48168d0681175297db78222f5919d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a0323fef9b6a0db0dfcb7126745153b = $(`<div id="html_3a0323fef9b6a0db0dfcb7126745153b" style="width: 100.0%; height: 100.0%;">['BIGGS ARMY AIR FIELD FORT BLISS TEXAS USA, TX US', 18.04389721627405]</div>`)[0];
+                popup_1b48168d0681175297db78222f5919d7.setContent(html_3a0323fef9b6a0db0dfcb7126745153b);
+            
+        
+
+        marker_b2e62ce36aef1bd611f2cef8ccd940b3.bindPopup(popup_1b48168d0681175297db78222f5919d7)
+        ;
+
+        
+    
+    
+            var marker_eab3c5570830de05a6a0d930bdbb106c = L.marker(
+                [33.97855, -98.49298],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_086751b66fd1f7c5064aa2380d0967d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_eab3c5570830de05a6a0d930bdbb106c.setIcon(icon_086751b66fd1f7c5064aa2380d0967d3);
+        
+    
+        var popup_f4e21e026da68d2c5244f9487395d38c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd024864b94a7b05867ae50eea691a7d = $(`<div id="html_dd024864b94a7b05867ae50eea691a7d" style="width: 100.0%; height: 100.0%;">['WICHITA FALLS MUNICIPAL AIRPORT, TX US', 17.28585144453174]</div>`)[0];
+                popup_f4e21e026da68d2c5244f9487395d38c.setContent(html_dd024864b94a7b05867ae50eea691a7d);
+            
+        
+
+        marker_eab3c5570830de05a6a0d930bdbb106c.bindPopup(popup_f4e21e026da68d2c5244f9487395d38c)
+        ;
+
+        
+    
+    
+            var marker_ad27186a91b96341ac08bb034bf4ea67 = L.marker(
+                [31.17833, -99.32444],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_8e7784d1cd3eff9310b3591962506b68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad27186a91b96341ac08bb034bf4ea67.setIcon(icon_8e7784d1cd3eff9310b3591962506b68);
+        
+    
+        var popup_b3f773c2e49d95d618406ea890141580 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62b45ed784f445891df66d08466b33ee = $(`<div id="html_62b45ed784f445891df66d08466b33ee" style="width: 100.0%; height: 100.0%;">['BRADY CURTIS FIELD AIRPORT, TX US', 14.05123095712542]</div>`)[0];
+                popup_b3f773c2e49d95d618406ea890141580.setContent(html_62b45ed784f445891df66d08466b33ee);
+            
+        
+
+        marker_ad27186a91b96341ac08bb034bf4ea67.bindPopup(popup_b3f773c2e49d95d618406ea890141580)
+        ;
+
+        
+    
+    
+            var marker_a98fce09671f61d53527999fae27d0e2 = L.marker(
+                [30.06917, -93.80361],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_fa0a60a5ea82e291ee03622c2c33a124 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a98fce09671f61d53527999fae27d0e2.setIcon(icon_fa0a60a5ea82e291ee03622c2c33a124);
+        
+    
+        var popup_c3f5eb6d75c3e17757ed2e6f08a78108 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_588ee178f2e99cbe4e607fcbf2dc007e = $(`<div id="html_588ee178f2e99cbe4e607fcbf2dc007e" style="width: 100.0%; height: 100.0%;">['ORANGE CO AIRPORT, TX US', 21.589681533556103]</div>`)[0];
+                popup_c3f5eb6d75c3e17757ed2e6f08a78108.setContent(html_588ee178f2e99cbe4e607fcbf2dc007e);
+            
+        
+
+        marker_a98fce09671f61d53527999fae27d0e2.bindPopup(popup_c3f5eb6d75c3e17757ed2e6f08a78108)
+        ;
+
+        
+    
+    
+            var marker_46445589251299e6e0d0dbd24a4ebd38 = L.marker(
+                [35.22027, -101.71733],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_65a3103410b0eb2389edb26f61f9a383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46445589251299e6e0d0dbd24a4ebd38.setIcon(icon_65a3103410b0eb2389edb26f61f9a383);
+        
+    
+        var popup_baf254c680fc5c678d8a64c0f045be21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62853ec7ca745813e19dff51668ceeee = $(`<div id="html_62853ec7ca745813e19dff51668ceeee" style="width: 100.0%; height: 100.0%;">['AMARILLO AIRPORT, TX US', 13.937074178978799]</div>`)[0];
+                popup_baf254c680fc5c678d8a64c0f045be21.setContent(html_62853ec7ca745813e19dff51668ceeee);
+            
+        
+
+        marker_46445589251299e6e0d0dbd24a4ebd38.bindPopup(popup_baf254c680fc5c678d8a64c0f045be21)
+        ;
+
+        
+    
+    
+            var marker_da2b86d2846cd6b2497e37b7244c108b = L.marker(
+                [35.69502, -101.39551],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_e988330f4b2c8480a47d19db87e41aef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_da2b86d2846cd6b2497e37b7244c108b.setIcon(icon_e988330f4b2c8480a47d19db87e41aef);
+        
+    
+        var popup_2b6dddd644c9696cdbdaa7329c43a562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac6f5a386a527ce4d7d56b4c20b727b2 = $(`<div id="html_ac6f5a386a527ce4d7d56b4c20b727b2" style="width: 100.0%; height: 100.0%;">['BORGER HUTCHINSON CO AIRPORT, TX US', 15.610097323600982]</div>`)[0];
+                popup_2b6dddd644c9696cdbdaa7329c43a562.setContent(html_ac6f5a386a527ce4d7d56b4c20b727b2);
+            
+        
+
+        marker_da2b86d2846cd6b2497e37b7244c108b.bindPopup(popup_2b6dddd644c9696cdbdaa7329c43a562)
+        ;
+
+        
+    
+    
+            var marker_b614e254183317518ce0706b02e9ccd9 = L.marker(
+                [34.42747, -100.28391],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_951c7255057fdc3a6986f35e1e329af2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b614e254183317518ce0706b02e9ccd9.setIcon(icon_951c7255057fdc3a6986f35e1e329af2);
+        
+    
+        var popup_6407289770f113f76ae21e7d13c87628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b48dc609dea21599bb00e8dcae17ad10 = $(`<div id="html_b48dc609dea21599bb00e8dcae17ad10" style="width: 100.0%; height: 100.0%;">['CHILDRESS MUNICIPAL AIRPORT, TX US', 16.580632371890136]</div>`)[0];
+                popup_6407289770f113f76ae21e7d13c87628.setContent(html_b48dc609dea21599bb00e8dcae17ad10);
+            
+        
+
+        marker_b614e254183317518ce0706b02e9ccd9.bindPopup(popup_6407289770f113f76ae21e7d13c87628)
+        ;
+
+        
+    
+    
+            var marker_5612b2a9886c46b8ff35325629d456e8 = L.marker(
+                [30.51556, -96.70417],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_17590be6298755485bb3717f19e1b346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5612b2a9886c46b8ff35325629d456e8.setIcon(icon_17590be6298755485bb3717f19e1b346);
+        
+    
+        var popup_c9ab800fcea79e8ec1b759954abec419 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7cb1a6078e743aed47f5ecc3b5d9294 = $(`<div id="html_d7cb1a6078e743aed47f5ecc3b5d9294" style="width: 100.0%; height: 100.0%;">['CALDWELL MUNICIPAL AIRPORT, TX US', 19.88728312678725]</div>`)[0];
+                popup_c9ab800fcea79e8ec1b759954abec419.setContent(html_d7cb1a6078e743aed47f5ecc3b5d9294);
+            
+        
+
+        marker_5612b2a9886c46b8ff35325629d456e8.bindPopup(popup_c9ab800fcea79e8ec1b759954abec419)
+        ;
+
+        
+    
+    
+            var marker_58cabe1d7976c65a0edced912da51d2c = L.marker(
+                [31.30694, -95.40389],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_bac95d316b032dd21ca43d1876568d7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_58cabe1d7976c65a0edced912da51d2c.setIcon(icon_bac95d316b032dd21ca43d1876568d7a);
+        
+    
+        var popup_64bfcb0fc0ea761a3f48a5780768b86f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e98ac3d0c4e3dc00805aab239153715 = $(`<div id="html_2e98ac3d0c4e3dc00805aab239153715" style="width: 100.0%; height: 100.0%;">['CROCKETT HOUSTON CO AIRPORT, TX US', 19.505413027656513]</div>`)[0];
+                popup_64bfcb0fc0ea761a3f48a5780768b86f.setContent(html_2e98ac3d0c4e3dc00805aab239153715);
+            
+        
+
+        marker_58cabe1d7976c65a0edced912da51d2c.bindPopup(popup_64bfcb0fc0ea761a3f48a5780768b86f)
+        ;
+
+        
+    
+    
+            var marker_8ceebd172d6951c63e820c3894768344 = L.marker(
+                [30.58583, -100.64861],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_1d571c670fb969fd2ed3b92168b97563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8ceebd172d6951c63e820c3894768344.setIcon(icon_1d571c670fb969fd2ed3b92168b97563);
+        
+    
+        var popup_a027eecccfe9ea5b9592a9679dc269fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c27c269a6b68f5bdd9b4ac9b174a3611 = $(`<div id="html_c27c269a6b68f5bdd9b4ac9b174a3611" style="width: 100.0%; height: 100.0%;">['SONORA MUNICIPAL AIRPORT, TX US', 18.5019174281985]</div>`)[0];
+                popup_a027eecccfe9ea5b9592a9679dc269fd.setContent(html_c27c269a6b68f5bdd9b4ac9b174a3611);
+            
+        
+
+        marker_8ceebd172d6951c63e820c3894768344.bindPopup(popup_a027eecccfe9ea5b9592a9679dc269fd)
+        ;
+
+        
+    
+    
+            var marker_50b03075445e424f2e823d0de34dbe99 = L.marker(
+                [31.91667, -98.60028],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_3dd91bb08b914c7378fe754b0caf94f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_50b03075445e424f2e823d0de34dbe99.setIcon(icon_3dd91bb08b914c7378fe754b0caf94f5);
+        
+    
+        var popup_88be5c8786c38798995b94845d1b67ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e07ae8658a5f17dad103ad241602472d = $(`<div id="html_e07ae8658a5f17dad103ad241602472d" style="width: 100.0%; height: 100.0%;">['COMANCHE CO CITY AIRPORT, TX US', 18.4542744410346]</div>`)[0];
+                popup_88be5c8786c38798995b94845d1b67ac.setContent(html_e07ae8658a5f17dad103ad241602472d);
+            
+        
+
+        marker_50b03075445e424f2e823d0de34dbe99.bindPopup(popup_88be5c8786c38798995b94845d1b67ac)
+        ;
+
+        
+    
+    
+            var marker_b8548574b653258224ce91384ff3c320 = L.marker(
+                [36.02516, -102.54875],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_06bb046c22c5284290e45e4f22c60c80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8548574b653258224ce91384ff3c320.setIcon(icon_06bb046c22c5284290e45e4f22c60c80);
+        
+    
+        var popup_308b4f61a6eafa49dc4474e9b26c762b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2086dcd122ec3c3630efae6560ad06e4 = $(`<div id="html_2086dcd122ec3c3630efae6560ad06e4" style="width: 100.0%; height: 100.0%;">['DALHART FAA AIRPORT, TX US', 12.699502386513656]</div>`)[0];
+                popup_308b4f61a6eafa49dc4474e9b26c762b.setContent(html_2086dcd122ec3c3630efae6560ad06e4);
+            
+        
+
+        marker_b8548574b653258224ce91384ff3c320.bindPopup(popup_308b4f61a6eafa49dc4474e9b26c762b)
+        ;
+
+        
+    
+    
+            var marker_6e2043f521dbb91ca027c636cecdc52a = L.marker(
+                [32.82478, -97.36403],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_c64a43e7f0fb5d6a13f25596ffbbd857 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6e2043f521dbb91ca027c636cecdc52a.setIcon(icon_c64a43e7f0fb5d6a13f25596ffbbd857);
+        
+    
+        var popup_46fdd965c253a68f759e7995cadc689e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a03ef10337f49e6b98f54eb1c0602b0 = $(`<div id="html_3a03ef10337f49e6b98f54eb1c0602b0" style="width: 100.0%; height: 100.0%;">['FORT WORTH MEACHAM FIELD, TX US', 18.42188403005192]</div>`)[0];
+                popup_46fdd965c253a68f759e7995cadc689e.setContent(html_3a03ef10337f49e6b98f54eb1c0602b0);
+            
+        
+
+        marker_6e2043f521dbb91ca027c636cecdc52a.bindPopup(popup_46fdd965c253a68f759e7995cadc689e)
+        ;
+
+        
+    
+    
+            var marker_35431b95b5febe80e69148faf5ce996c = L.marker(
+                [30.51048, -99.76649],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_949aef49f1aa958cf56b49ffdc873bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_35431b95b5febe80e69148faf5ce996c.setIcon(icon_949aef49f1aa958cf56b49ffdc873bde);
+        
+    
+        var popup_a4bb935c44d25ca125074cca2572ed82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a29d83557f740cf14ea35bddf001a1f = $(`<div id="html_1a29d83557f740cf14ea35bddf001a1f" style="width: 100.0%; height: 100.0%;">['JUNCTION KIMBLE CO AIRPORT, TX US', 19.07508736043633]</div>`)[0];
+                popup_a4bb935c44d25ca125074cca2572ed82.setContent(html_1a29d83557f740cf14ea35bddf001a1f);
+            
+        
+
+        marker_35431b95b5febe80e69148faf5ce996c.bindPopup(popup_a4bb935c44d25ca125074cca2572ed82)
+        ;
+
+        
+    
+    
+            var marker_ff8a8c8baada8388715c3861e3138570 = L.marker(
+                [30.5912, -96.36309],
+                {}
+            ).addTo(map_dd04803a9e9c61fbe6e29211f5a2fa28);
+        
+    
+            var icon_fed587768b8d3e4f55742690f9e8c6ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff8a8c8baada8388715c3861e3138570.setIcon(icon_fed587768b8d3e4f55742690f9e8c6ad);
+        
+    
+        var popup_bb6f8943ed0ef7e893049655c731a8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74f18322f2756983bc770c8228da6a81 = $(`<div id="html_74f18322f2756983bc770c8228da6a81" style="width: 100.0%; height: 100.0%;">['COLLEGE STATION EASTERWOOD FIELD, TX US', 20.570858460447074]</div>`)[0];
+                popup_bb6f8943ed0ef7e893049655c731a8b5.setContent(html_74f18322f2756983bc770c8228da6a81);
+            
+        
+
+        marker_ff8a8c8baada8388715c3861e3138570.bindPopup(popup_bb6f8943ed0ef7e893049655c731a8b5)
+        ;
+
+        
+    
+</script>
+</html>

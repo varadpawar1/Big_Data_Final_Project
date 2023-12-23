@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4862d89b682e779670eeb95fa80b1ffe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4862d89b682e779670eeb95fa80b1ffe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4862d89b682e779670eeb95fa80b1ffe = L.map(
+                "map_4862d89b682e779670eeb95fa80b1ffe",
+                {
+                    center: [30.0, -98.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ea72029acb5d12811c835f608f3b83d7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ea72029acb5d12811c835f608f3b83d7.addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var marker_78877e147f9d0115fae9d4b89c819dfc = L.marker(
+                [40.701214, -74.009028],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_633b2f6820662403e708f20e1d2e4638 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_78877e147f9d0115fae9d4b89c819dfc.setIcon(icon_633b2f6820662403e708f20e1d2e4638);
+        
+    
+        var popup_3dd7a6c214ebc9048a1b21e3a6d56b65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c488acf059d027c50435faf384117b = $(`<div id="html_45c488acf059d027c50435faf384117b" style="width: 100.0%; height: 100.0%;">['PORT AUTH DOWNTN MANHATTAN WALL ST HEL, NY US', 14.086898985443286]</div>`)[0];
+                popup_3dd7a6c214ebc9048a1b21e3a6d56b65.setContent(html_45c488acf059d027c50435faf384117b);
+            
+        
+
+        marker_78877e147f9d0115fae9d4b89c819dfc.bindPopup(popup_3dd7a6c214ebc9048a1b21e3a6d56b65)
+        ;
+
+        
+    
+    
+            var marker_f777c9e8c7cce5ab4a79baf0081259b7 = L.marker(
+                [42.56985, -77.71426],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_89c29b69ad4361ee3b81ecae46409187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f777c9e8c7cce5ab4a79baf0081259b7.setIcon(icon_89c29b69ad4361ee3b81ecae46409187);
+        
+    
+        var popup_730ae6caee6e48cfb03c4e22ce3578c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_069193cdf06a62099eb6ada9e2de8a91 = $(`<div id="html_069193cdf06a62099eb6ada9e2de8a91" style="width: 100.0%; height: 100.0%;">['DANSVILLE MUNICIPAL AIRPORT, NY US', 9.004840878529805]</div>`)[0];
+                popup_730ae6caee6e48cfb03c4e22ce3578c0.setContent(html_069193cdf06a62099eb6ada9e2de8a91);
+            
+        
+
+        marker_f777c9e8c7cce5ab4a79baf0081259b7.bindPopup(popup_730ae6caee6e48cfb03c4e22ce3578c0)
+        ;
+
+        
+    
+    
+            var marker_b4da31de0c8e68b8a0049e1309d2b4c3 = L.marker(
+                [41.073056, -71.923505],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_e72e3235ee2f14818ecd66e929128b3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b4da31de0c8e68b8a0049e1309d2b4c3.setIcon(icon_e72e3235ee2f14818ecd66e929128b3a);
+        
+    
+        var popup_379ab36d2ef21578b95d561b80c3170d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb6d0a3b05766587f5ecbe095a6255f0 = $(`<div id="html_cb6d0a3b05766587f5ecbe095a6255f0" style="width: 100.0%; height: 100.0%;">['MONTAUK AIRPORT, NY US', 12.04515759312321]</div>`)[0];
+                popup_379ab36d2ef21578b95d561b80c3170d.setContent(html_cb6d0a3b05766587f5ecbe095a6255f0);
+            
+        
+
+        marker_b4da31de0c8e68b8a0049e1309d2b4c3.bindPopup(popup_379ab36d2ef21578b95d561b80c3170d)
+        ;
+
+        
+    
+    
+            var marker_ecbe3b1dca3e67f656d5404392a74a38 = L.marker(
+                [41.50908, -74.26458],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_7918fa1ac15ff07211e83fb0048c85f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ecbe3b1dca3e67f656d5404392a74a38.setIcon(icon_7918fa1ac15ff07211e83fb0048c85f0);
+        
+    
+        var popup_04191729dcd10e074658896bf2486f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27458b2b6a92b6bcb462f16e2e5027c9 = $(`<div id="html_27458b2b6a92b6bcb462f16e2e5027c9" style="width: 100.0%; height: 100.0%;">['MONTGOMERY ORANGE CO AIRPORT, NY US', 9.412015301686681]</div>`)[0];
+                popup_04191729dcd10e074658896bf2486f25.setContent(html_27458b2b6a92b6bcb462f16e2e5027c9);
+            
+        
+
+        marker_ecbe3b1dca3e67f656d5404392a74a38.bindPopup(popup_04191729dcd10e074658896bf2486f25)
+        ;
+
+        
+    
+    
+            var marker_1451f929f0cf0406fa257ffc94300481 = L.marker(
+                [40.82121, -72.86742],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_31d8f97a1b1ff43eb6eca80bf3f84d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1451f929f0cf0406fa257ffc94300481.setIcon(icon_31d8f97a1b1ff43eb6eca80bf3f84d38);
+        
+    
+        var popup_e48cd4933cf2fb56ea851ef035d48696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec2316d4eca086195e21cf3280ee4ad5 = $(`<div id="html_ec2316d4eca086195e21cf3280ee4ad5" style="width: 100.0%; height: 100.0%;">['SHIRLEY BROOKHAVEN AIRPORT, NY US', 12.092331367017184]</div>`)[0];
+                popup_e48cd4933cf2fb56ea851ef035d48696.setContent(html_ec2316d4eca086195e21cf3280ee4ad5);
+            
+        
+
+        marker_1451f929f0cf0406fa257ffc94300481.bindPopup(popup_e48cd4933cf2fb56ea851ef035d48696)
+        ;
+
+        
+    
+    
+            var marker_5daf1d8ff8e540e19c94603ae2519565 = L.marker(
+                [40.77945, -73.88027],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_99bde16308bd74af9331a979a86f2d14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5daf1d8ff8e540e19c94603ae2519565.setIcon(icon_99bde16308bd74af9331a979a86f2d14);
+        
+    
+        var popup_dd3f680ebd7d8f3a84b35c5307d2d09b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdfb508989e6eb5c3d47be3876fbabc2 = $(`<div id="html_fdfb508989e6eb5c3d47be3876fbabc2" style="width: 100.0%; height: 100.0%;">['LAGUARDIA AIRPORT, NY US', 13.253540222958724]</div>`)[0];
+                popup_dd3f680ebd7d8f3a84b35c5307d2d09b.setContent(html_fdfb508989e6eb5c3d47be3876fbabc2);
+            
+        
+
+        marker_5daf1d8ff8e540e19c94603ae2519565.bindPopup(popup_dd3f680ebd7d8f3a84b35c5307d2d09b)
+        ;
+
+        
+    
+    
+            var marker_c0441c1b61817593a35255753b97be5e = L.marker(
+                [41.62574, -73.88155],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_2abc61b162c2ecda9ae90e50907c295d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c0441c1b61817593a35255753b97be5e.setIcon(icon_2abc61b162c2ecda9ae90e50907c295d);
+        
+    
+        var popup_1909a4c99e3340ed1fe5bf311ad8d636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f51ee281b286ea0e1068dd8da23ffe4 = $(`<div id="html_3f51ee281b286ea0e1068dd8da23ffe4" style="width: 100.0%; height: 100.0%;">['POUGHKEEPSIE AIRPORT, NY US', 10.61249450065996]</div>`)[0];
+                popup_1909a4c99e3340ed1fe5bf311ad8d636.setContent(html_3f51ee281b286ea0e1068dd8da23ffe4);
+            
+        
+
+        marker_c0441c1b61817593a35255753b97be5e.bindPopup(popup_1909a4c99e3340ed1fe5bf311ad8d636)
+        ;
+
+        
+    
+    
+            var marker_d3c9b44c9f755fd8f7730455711d9e43 = L.marker(
+                [41.06236, -73.70454],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_762d5805297ceae6bfac37b05c4775cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d3c9b44c9f755fd8f7730455711d9e43.setIcon(icon_762d5805297ceae6bfac37b05c4775cd);
+        
+    
+        var popup_006e8f02b3c483ac21db9d98274d43ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71539afb9048f977e769973f6ec69bd2 = $(`<div id="html_71539afb9048f977e769973f6ec69bd2" style="width: 100.0%; height: 100.0%;">['WESTCHESTER CO AIRPORT, NY US', 11.622656024617726]</div>`)[0];
+                popup_006e8f02b3c483ac21db9d98274d43ab.setContent(html_71539afb9048f977e769973f6ec69bd2);
+            
+        
+
+        marker_d3c9b44c9f755fd8f7730455711d9e43.bindPopup(popup_006e8f02b3c483ac21db9d98274d43ab)
+        ;
+
+        
+    
+    
+            var marker_1e28faf7d8939b6e0c32996efaf08a98 = L.marker(
+                [41.5, -74.1],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_dd5002c9b13cff96e3d2e35bb526721d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1e28faf7d8939b6e0c32996efaf08a98.setIcon(icon_dd5002c9b13cff96e3d2e35bb526721d);
+        
+    
+        var popup_bee83ea1e11d1e87416fa42fef3faba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17a7303b577171c9da5b778a21fb55a9 = $(`<div id="html_17a7303b577171c9da5b778a21fb55a9" style="width: 100.0%; height: 100.0%;">['STEWART FIELD, NY US', 11.086823289070457]</div>`)[0];
+                popup_bee83ea1e11d1e87416fa42fef3faba1.setContent(html_17a7303b577171c9da5b778a21fb55a9);
+            
+        
+
+        marker_1e28faf7d8939b6e0c32996efaf08a98.bindPopup(popup_bee83ea1e11d1e87416fa42fef3faba1)
+        ;
+
+        
+    
+    
+            var marker_7d584b37ef39e2aad8d8862069963e9d = L.marker(
+                [40.79389, -73.10181],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_964f602ddd9f8a28c92b90b6ab3b7a91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d584b37ef39e2aad8d8862069963e9d.setIcon(icon_964f602ddd9f8a28c92b90b6ab3b7a91);
+        
+    
+        var popup_897f670b82c934da816a5a8a7e85b53c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5470da2f2a856329b3729d50e2ab0436 = $(`<div id="html_5470da2f2a856329b3729d50e2ab0436" style="width: 100.0%; height: 100.0%;">['ISLIP LI MACARTHUR AIRPORT, NY US', 12.110646785069783]</div>`)[0];
+                popup_897f670b82c934da816a5a8a7e85b53c.setContent(html_5470da2f2a856329b3729d50e2ab0436);
+            
+        
+
+        marker_7d584b37ef39e2aad8d8862069963e9d.bindPopup(popup_897f670b82c934da816a5a8a7e85b53c)
+        ;
+
+        
+    
+    
+            var marker_8bd76665b8e8c5a1dc19bbb1963e0b85 = L.marker(
+                [40.77898, -73.96925],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_e82a6876aff1942d0131d2bb5415af4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8bd76665b8e8c5a1dc19bbb1963e0b85.setIcon(icon_e82a6876aff1942d0131d2bb5415af4b);
+        
+    
+        var popup_91a3ed2c06010bb327b2a67b1fcf63a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d0a66fde50c64074a54dc7ff1d1cf39 = $(`<div id="html_7d0a66fde50c64074a54dc7ff1d1cf39" style="width: 100.0%; height: 100.0%;">['NY CITY CENTRAL PARK, NY US', 12.879170744728176]</div>`)[0];
+                popup_91a3ed2c06010bb327b2a67b1fcf63a3.setContent(html_7d0a66fde50c64074a54dc7ff1d1cf39);
+            
+        
+
+        marker_8bd76665b8e8c5a1dc19bbb1963e0b85.bindPopup(popup_91a3ed2c06010bb327b2a67b1fcf63a3)
+        ;
+
+        
+    
+    
+            var marker_55c2f1700ba345bbb805155ab2e665aa = L.marker(
+                [41.70139, -74.795],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_ea81d06baacb3a5946eb55b4556343df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55c2f1700ba345bbb805155ab2e665aa.setIcon(icon_ea81d06baacb3a5946eb55b4556343df);
+        
+    
+        var popup_1090fe672da8be2dd8ce30addf567637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_620323a8561d8d79e4b471501f491c94 = $(`<div id="html_620323a8561d8d79e4b471501f491c94" style="width: 100.0%; height: 100.0%;">['MONTICELLO SULLIVAN, NY US', 8.48569817097737]</div>`)[0];
+                popup_1090fe672da8be2dd8ce30addf567637.setContent(html_620323a8561d8d79e4b471501f491c94);
+            
+        
+
+        marker_55c2f1700ba345bbb805155ab2e665aa.bindPopup(popup_1090fe672da8be2dd8ce30addf567637)
+        ;
+
+        
+    
+    
+            var marker_dc9c577feb93e55fad53b79308f9c8ab = L.marker(
+                [43.35037, -76.38316],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_4cd8150942c5806fa9fc09a1339531b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc9c577feb93e55fad53b79308f9c8ab.setIcon(icon_4cd8150942c5806fa9fc09a1339531b9);
+        
+    
+        var popup_b1e7336d34c48d37408078bb204787cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374ad03c6745a206c2071b33411ca3be = $(`<div id="html_374ad03c6745a206c2071b33411ca3be" style="width: 100.0%; height: 100.0%;">['FULTON OSWEGO CO AIRPORT, NY US', 7.59786503433862]</div>`)[0];
+                popup_b1e7336d34c48d37408078bb204787cc.setContent(html_374ad03c6745a206c2071b33411ca3be);
+            
+        
+
+        marker_dc9c577feb93e55fad53b79308f9c8ab.bindPopup(popup_b1e7336d34c48d37408078bb204787cc)
+        ;
+
+        
+    
+    
+            var marker_b1c45248fdb788148b5a605251c2170f = L.marker(
+                [42.20678, -75.97993],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_67fc1302db989dbe1ceb005321bcae23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b1c45248fdb788148b5a605251c2170f.setIcon(icon_67fc1302db989dbe1ceb005321bcae23);
+        
+    
+        var popup_9960e2107c9b0cce325ff3f4e64156b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5760d664c09e6486192e864ba0b7b061 = $(`<div id="html_5760d664c09e6486192e864ba0b7b061" style="width: 100.0%; height: 100.0%;">['BINGHAMTON GREATER AP, NY US', 7.253529857428207]</div>`)[0];
+                popup_9960e2107c9b0cce325ff3f4e64156b3.setContent(html_5760d664c09e6486192e864ba0b7b061);
+            
+        
+
+        marker_b1c45248fdb788148b5a605251c2170f.bindPopup(popup_9960e2107c9b0cce325ff3f4e64156b3)
+        ;
+
+        
+    
+    
+            var marker_48004a2c1f36398accd3831d86941456 = L.marker(
+                [42.48333, -76.46667],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_3e497a93cc74f94248e236074e9c6d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48004a2c1f36398accd3831d86941456.setIcon(icon_3e497a93cc74f94248e236074e9c6d38);
+        
+    
+        var popup_3f650492797c74bed86b6f3234f673be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e5dede04ff11ec069c7e500e4481818 = $(`<div id="html_9e5dede04ff11ec069c7e500e4481818" style="width: 100.0%; height: 100.0%;">['ITHACA TOMPKINS CNTY, NY US', 7.850778264516725]</div>`)[0];
+                popup_3f650492797c74bed86b6f3234f673be.setContent(html_9e5dede04ff11ec069c7e500e4481818);
+            
+        
+
+        marker_48004a2c1f36398accd3831d86941456.bindPopup(popup_3f650492797c74bed86b6f3234f673be)
+        ;
+
+        
+    
+    
+            var marker_06d990f77b2f335c8ad138426b22b033 = L.marker(
+                [42.15658, -76.90291],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_b7cb3465d57f5468da89fbba4fe2f37e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06d990f77b2f335c8ad138426b22b033.setIcon(icon_b7cb3465d57f5468da89fbba4fe2f37e);
+        
+    
+        var popup_7a228ee4a94a17f2b5a4631e835e66a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc54d60ef9b6f9e50c99578d093854d5 = $(`<div id="html_fc54d60ef9b6f9e50c99578d093854d5" style="width: 100.0%; height: 100.0%;">['ELMIRA CORNING REGIONAL AIRPORT, NY US', 8.493767591475692]</div>`)[0];
+                popup_7a228ee4a94a17f2b5a4631e835e66a8.setContent(html_fc54d60ef9b6f9e50c99578d093854d5);
+            
+        
+
+        marker_06d990f77b2f335c8ad138426b22b033.bindPopup(popup_7a228ee4a94a17f2b5a4631e835e66a8)
+        ;
+
+        
+    
+    
+            var marker_7baac87f362dbd16c8847a7a999250e8 = L.marker(
+                [42.10775, -77.98424],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_ff8f06766ee5adb13851e33e3d1e85d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7baac87f362dbd16c8847a7a999250e8.setIcon(icon_ff8f06766ee5adb13851e33e3d1e85d2);
+        
+    
+        var popup_dc32d2d56230683607e8ca07c8e4dafb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afdabfae2aee563ef760ddf4542917be = $(`<div id="html_afdabfae2aee563ef760ddf4542917be" style="width: 100.0%; height: 100.0%;">['WELLSVILLE MUNICIPAL AIRPORT, NY US', 7.318354125025814]</div>`)[0];
+                popup_dc32d2d56230683607e8ca07c8e4dafb.setContent(html_afdabfae2aee563ef760ddf4542917be);
+            
+        
+
+        marker_7baac87f362dbd16c8847a7a999250e8.bindPopup(popup_dc32d2d56230683607e8ca07c8e4dafb)
+        ;
+
+        
+    
+    
+            var marker_5cb016cace5b2e0df12de3f30e178004 = L.marker(
+                [42.74722, -73.79913],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_b8f52a041fd2f7ab807382b33def5667 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cb016cace5b2e0df12de3f30e178004.setIcon(icon_b8f52a041fd2f7ab807382b33def5667);
+        
+    
+        var popup_aa2bd0268366943aa35c7e0e559f4111 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d51bdb9430b1c7d1f8721fea5d6ea0f = $(`<div id="html_2d51bdb9430b1c7d1f8721fea5d6ea0f" style="width: 100.0%; height: 100.0%;">['ALBANY INTERNATIONAL AIRPORT, NY US', 9.844770056579106]</div>`)[0];
+                popup_aa2bd0268366943aa35c7e0e559f4111.setContent(html_2d51bdb9430b1c7d1f8721fea5d6ea0f);
+            
+        
+
+        marker_5cb016cace5b2e0df12de3f30e178004.bindPopup(popup_aa2bd0268366943aa35c7e0e559f4111)
+        ;
+
+        
+    
+    
+            var marker_41e083c40c173703becc8f908e7a2143 = L.marker(
+                [44.681854, -75.4655],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_873f3bfb7f119e7669ea24036bca392d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41e083c40c173703becc8f908e7a2143.setIcon(icon_873f3bfb7f119e7669ea24036bca392d);
+        
+    
+        var popup_231e632c4e28269959ab765e50802bbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7dbfcd43ec1b0f66f769419cad9942f = $(`<div id="html_d7dbfcd43ec1b0f66f769419cad9942f" style="width: 100.0%; height: 100.0%;">['OGDENSBURG INTERNATIONAL, NY US', 7.831953801732558]</div>`)[0];
+                popup_231e632c4e28269959ab765e50802bbd.setContent(html_d7dbfcd43ec1b0f66f769419cad9942f);
+            
+        
+
+        marker_41e083c40c173703becc8f908e7a2143.bindPopup(popup_231e632c4e28269959ab765e50802bbd)
+        ;
+
+        
+    
+    
+            var marker_cb690dc291d33f560135c94e0ece4488 = L.marker(
+                [43.1111, -76.10384],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_3e14c876f3377c20c2d96f8802728247 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb690dc291d33f560135c94e0ece4488.setIcon(icon_3e14c876f3377c20c2d96f8802728247);
+        
+    
+        var popup_7366ee981f67690e08c1445678befb42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c534a194c6fb29a8a322f31b60e38c03 = $(`<div id="html_c534a194c6fb29a8a322f31b60e38c03" style="width: 100.0%; height: 100.0%;">['SYRACUSE HANCOCK INTERNATIONAL AIRPORT, NY US', 8.905408286546832]</div>`)[0];
+                popup_7366ee981f67690e08c1445678befb42.setContent(html_c534a194c6fb29a8a322f31b60e38c03);
+            
+        
+
+        marker_cb690dc291d33f560135c94e0ece4488.bindPopup(popup_7366ee981f67690e08c1445678befb42)
+        ;
+
+        
+    
+    
+            var marker_eae987eb6f18f60a78de02a87d8c982f = L.marker(
+                [42.64405, -77.05286],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_e0ab3fcf4f005fc38a1efda263395384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eae987eb6f18f60a78de02a87d8c982f.setIcon(icon_e0ab3fcf4f005fc38a1efda263395384);
+        
+    
+        var popup_d1d06906c9939f7ab27124eee2ba8e7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6859c19984ca1d8ec4ed92d0d52dbd15 = $(`<div id="html_6859c19984ca1d8ec4ed92d0d52dbd15" style="width: 100.0%; height: 100.0%;">['PENN YAN AIRPORT, NY US', 8.029257067718593]</div>`)[0];
+                popup_d1d06906c9939f7ab27124eee2ba8e7e.setContent(html_6859c19984ca1d8ec4ed92d0d52dbd15);
+            
+        
+
+        marker_eae987eb6f18f60a78de02a87d8c982f.bindPopup(popup_d1d06906c9939f7ab27124eee2ba8e7e)
+        ;
+
+        
+    
+    
+            var marker_8257e167c01239bb89ba8b3e84ef7c32 = L.marker(
+                [43.22417, -75.39563],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_04df9239b9be8289d8f227b0077d15fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8257e167c01239bb89ba8b3e84ef7c32.setIcon(icon_04df9239b9be8289d8f227b0077d15fc);
+        
+    
+        var popup_1182102a3841a5410303aa15e9239434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839d570ecfbea42b1539c904e76636a0 = $(`<div id="html_839d570ecfbea42b1539c904e76636a0" style="width: 100.0%; height: 100.0%;">['ROME GRIFFISS AIRFIELD, NY US', 7.738303506941657]</div>`)[0];
+                popup_1182102a3841a5410303aa15e9239434.setContent(html_839d570ecfbea42b1539c904e76636a0);
+            
+        
+
+        marker_8257e167c01239bb89ba8b3e84ef7c32.bindPopup(popup_1182102a3841a5410303aa15e9239434)
+        ;
+
+        
+    
+    
+            var marker_ceb1e8329d18605d5190c4d10067d7e6 = L.marker(
+                [43.33849, -73.61024],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_0b74de196bfc1f751229e8abbf995b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ceb1e8329d18605d5190c4d10067d7e6.setIcon(icon_0b74de196bfc1f751229e8abbf995b9b);
+        
+    
+        var popup_91e424b96fe2993995d827762d73dc21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a758ada50c45683b6ea7debaf7e93ccb = $(`<div id="html_a758ada50c45683b6ea7debaf7e93ccb" style="width: 100.0%; height: 100.0%;">['GLENS FALLS AIRPORT, NY US', 8.186796397555444]</div>`)[0];
+                popup_91e424b96fe2993995d827762d73dc21.setContent(html_a758ada50c45683b6ea7debaf7e93ccb);
+            
+        
+
+        marker_ceb1e8329d18605d5190c4d10067d7e6.bindPopup(popup_91e424b96fe2993995d827762d73dc21)
+        ;
+
+        
+    
+    
+            var marker_22abee7994df721a17732d8c03aff781 = L.marker(
+                [42.15, -79.25],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_00160c16ccca62cf333e4ac0898f41df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22abee7994df721a17732d8c03aff781.setIcon(icon_00160c16ccca62cf333e4ac0898f41df);
+        
+    
+        var popup_f7017f6a2c5dd8580e6c8b5a0a6138c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bbe0549e2ff934ebaaddc3058b34ec3 = $(`<div id="html_5bbe0549e2ff934ebaaddc3058b34ec3" style="width: 100.0%; height: 100.0%;">['JAMESTOWN, NY US', 6.289384913514673]</div>`)[0];
+                popup_f7017f6a2c5dd8580e6c8b5a0a6138c9.setContent(html_5bbe0549e2ff934ebaaddc3058b34ec3);
+            
+        
+
+        marker_22abee7994df721a17732d8c03aff781.bindPopup(popup_f7017f6a2c5dd8580e6c8b5a0a6138c9)
+        ;
+
+        
+    
+    
+            var marker_80bdf34fbeb09809f25f2d07ae7dd0cb = L.marker(
+                [42.93998, -78.73606],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_1ff08c860e569e8473c6c4daacd7f190 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_80bdf34fbeb09809f25f2d07ae7dd0cb.setIcon(icon_1ff08c860e569e8473c6c4daacd7f190);
+        
+    
+        var popup_8e6435572c83888956779a5bf2b0e35b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c3fe95c73c433aa64864cedda94912b = $(`<div id="html_8c3fe95c73c433aa64864cedda94912b" style="width: 100.0%; height: 100.0%;">['BUFFALO NIAGARA INTERNATIONAL, NY US', 8.383402656648325]</div>`)[0];
+                popup_8e6435572c83888956779a5bf2b0e35b.setContent(html_8c3fe95c73c433aa64864cedda94912b);
+            
+        
+
+        marker_80bdf34fbeb09809f25f2d07ae7dd0cb.bindPopup(popup_8e6435572c83888956779a5bf2b0e35b)
+        ;
+
+        
+    
+    
+            var marker_a8fc19bf72c9e7f07288c1ba6a977c40 = L.marker(
+                [42.24122, -78.37136],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_5532be1667ba3792f270e37ae82b5151 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8fc19bf72c9e7f07288c1ba6a977c40.setIcon(icon_5532be1667ba3792f270e37ae82b5151);
+        
+    
+        var popup_25df5fe9e946f91500ad695dac3dd9cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f47daff4a6465b26c67ef99fa8606e46 = $(`<div id="html_f47daff4a6465b26c67ef99fa8606e46" style="width: 100.0%; height: 100.0%;">['CATTARAUGUS CO OLEAN AIRPORT, NY US', 6.98197583396893]</div>`)[0];
+                popup_25df5fe9e946f91500ad695dac3dd9cf.setContent(html_f47daff4a6465b26c67ef99fa8606e46);
+            
+        
+
+        marker_a8fc19bf72c9e7f07288c1ba6a977c40.bindPopup(popup_25df5fe9e946f91500ad695dac3dd9cf)
+        ;
+
+        
+    
+    
+            var marker_99b7e45b4307d17370c2fa36842aace6 = L.marker(
+                [43.1083, -78.93818],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_9d1bbe3acf4a77b94caf162d42efd5a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99b7e45b4307d17370c2fa36842aace6.setIcon(icon_9d1bbe3acf4a77b94caf162d42efd5a0);
+        
+    
+        var popup_d8848f1504e4e968992015134448b757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95e760134885341d65888a66a1e94680 = $(`<div id="html_95e760134885341d65888a66a1e94680" style="width: 100.0%; height: 100.0%;">['NIAGARA FALLS INTERNATIONAL AIRPORT, NY US', 8.364259182831239]</div>`)[0];
+                popup_d8848f1504e4e968992015134448b757.setContent(html_95e760134885341d65888a66a1e94680);
+            
+        
+
+        marker_99b7e45b4307d17370c2fa36842aace6.bindPopup(popup_d8848f1504e4e968992015134448b757)
+        ;
+
+        
+    
+    
+            var marker_2587db1c879c33b4a0f625b92e12dd6f = L.marker(
+                [43.11723, -77.67539],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_e0fdba782165378fbf8023f3dba8e899 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2587db1c879c33b4a0f625b92e12dd6f.setIcon(icon_e0fdba782165378fbf8023f3dba8e899);
+        
+    
+        var popup_63b23128e187b7a15906ad8d2b87ee88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29aaa95c6d0644907f20e44830a3f6f3 = $(`<div id="html_29aaa95c6d0644907f20e44830a3f6f3" style="width: 100.0%; height: 100.0%;">['ROCHESTER GREATER INTERNATIONAL, NY US', 8.142408787759909]</div>`)[0];
+                popup_63b23128e187b7a15906ad8d2b87ee88.setContent(html_29aaa95c6d0644907f20e44830a3f6f3);
+            
+        
+
+        marker_2587db1c879c33b4a0f625b92e12dd6f.bindPopup(popup_63b23128e187b7a15906ad8d2b87ee88)
+        ;
+
+        
+    
+    
+            var marker_473c96bb3881edb4e9aba9a664ccb7a4 = L.marker(
+                [44.93341, -74.84836],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_a0741d5272bdf167a9b0cda181926a12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_473c96bb3881edb4e9aba9a664ccb7a4.setIcon(icon_a0741d5272bdf167a9b0cda181926a12);
+        
+    
+        var popup_09e28ce619cd1adf817f2f6ce4503d73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e62cc13a167304846136451ac4bc3a7d = $(`<div id="html_e62cc13a167304846136451ac4bc3a7d" style="width: 100.0%; height: 100.0%;">['MASSENA INTERNATIONAL AIRPORT, NY US', 6.538078291814944]</div>`)[0];
+                popup_09e28ce619cd1adf817f2f6ce4503d73.setContent(html_e62cc13a167304846136451ac4bc3a7d);
+            
+        
+
+        marker_473c96bb3881edb4e9aba9a664ccb7a4.bindPopup(popup_09e28ce619cd1adf817f2f6ce4503d73)
+        ;
+
+        
+    
+    
+            var marker_7bd0392068e3c63e8a4de8f25be32632 = L.marker(
+                [44.63923, -73.46312],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_1d711cab4a8b60ab21d5f37e2f00a120 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7bd0392068e3c63e8a4de8f25be32632.setIcon(icon_1d711cab4a8b60ab21d5f37e2f00a120);
+        
+    
+        var popup_c698c0dac736a59577da2a8f5c2c1221 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99563b6195f43de48c0f7d7d708327e2 = $(`<div id="html_99563b6195f43de48c0f7d7d708327e2" style="width: 100.0%; height: 100.0%;">['PLATTSBURGH INTERNATIONAL AIRPORT, NY US', 7.403956901356083]</div>`)[0];
+                popup_c698c0dac736a59577da2a8f5c2c1221.setContent(html_99563b6195f43de48c0f7d7d708327e2);
+            
+        
+
+        marker_7bd0392068e3c63e8a4de8f25be32632.bindPopup(popup_c698c0dac736a59577da2a8f5c2c1221)
+        ;
+
+        
+    
+    
+            var marker_f908d53d4cba1e0b3473e2c0605d55b7 = L.marker(
+                [43.98872, -76.02609],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_e791f15dfb45a4e0fd9cd3934fe8d9e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f908d53d4cba1e0b3473e2c0605d55b7.setIcon(icon_e791f15dfb45a4e0fd9cd3934fe8d9e1);
+        
+    
+        var popup_5cca8474bcbfe4424671813208f3eb6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54a12bdab5aa7a67a188a050da766e6d = $(`<div id="html_54a12bdab5aa7a67a188a050da766e6d" style="width: 100.0%; height: 100.0%;">['WATERTOWN INTERNATIONAL AIRPORT, NY US', 7.446663458453645]</div>`)[0];
+                popup_5cca8474bcbfe4424671813208f3eb6e.setContent(html_54a12bdab5aa7a67a188a050da766e6d);
+            
+        
+
+        marker_f908d53d4cba1e0b3473e2c0605d55b7.bindPopup(popup_5cca8474bcbfe4424671813208f3eb6e)
+        ;
+
+        
+    
+    
+            var marker_8d41c8a395912de2dde4888ef9acdfd8 = L.marker(
+                [44.39279, -74.20288],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_b0d769ce88d6165b56362bf5a816de33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d41c8a395912de2dde4888ef9acdfd8.setIcon(icon_b0d769ce88d6165b56362bf5a816de33);
+        
+    
+        var popup_05f4f9c832f930e4c184ae1cc9da18f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fccc20f15069007395d66e9fa9e0d635 = $(`<div id="html_fccc20f15069007395d66e9fa9e0d635" style="width: 100.0%; height: 100.0%;">['SARANAC LAKE ADIRONDACK REGIONAL AIRPORT, NY US', 4.62823467439258]</div>`)[0];
+                popup_05f4f9c832f930e4c184ae1cc9da18f6.setContent(html_fccc20f15069007395d66e9fa9e0d635);
+            
+        
+
+        marker_8d41c8a395912de2dde4888ef9acdfd8.bindPopup(popup_05f4f9c832f930e4c184ae1cc9da18f6)
+        ;
+
+        
+    
+    
+            var marker_9ed30ce03e3f7918b831a18af9272c3a = L.marker(
+                [44.05, -75.73333],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_02e72743311c701f7ae487bdcb21ebbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ed30ce03e3f7918b831a18af9272c3a.setIcon(icon_02e72743311c701f7ae487bdcb21ebbc);
+        
+    
+        var popup_4e916c2e73e4472c9d31aef5c6b05653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca9c3aed80ba78f1aafebcb57dabcbf6 = $(`<div id="html_ca9c3aed80ba78f1aafebcb57dabcbf6" style="width: 100.0%; height: 100.0%;">['WHEELER SACK FIELD ARMY AIR FIELD, NY US', 6.156121851200929]</div>`)[0];
+                popup_4e916c2e73e4472c9d31aef5c6b05653.setContent(html_ca9c3aed80ba78f1aafebcb57dabcbf6);
+            
+        
+
+        marker_9ed30ce03e3f7918b831a18af9272c3a.bindPopup(popup_4e916c2e73e4472c9d31aef5c6b05653)
+        ;
+
+        
+    
+    
+            var marker_ce0830c06985f44453d84b034076cb4e = L.marker(
+                [40.63915, -73.7639],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_65570d2717d583ba446f6031f9bc0591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ce0830c06985f44453d84b034076cb4e.setIcon(icon_65570d2717d583ba446f6031f9bc0591);
+        
+    
+        var popup_1a50ef16b2fc34351956edeab7e1c75e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4beb80525a5adacdcff876bff854cd9 = $(`<div id="html_a4beb80525a5adacdcff876bff854cd9" style="width: 100.0%; height: 100.0%;">['JFK INTERNATIONAL AIRPORT, NY US', 12.55834040256036]</div>`)[0];
+                popup_1a50ef16b2fc34351956edeab7e1c75e.setContent(html_a4beb80525a5adacdcff876bff854cd9);
+            
+        
+
+        marker_ce0830c06985f44453d84b034076cb4e.bindPopup(popup_1a50ef16b2fc34351956edeab7e1c75e)
+        ;
+
+        
+    
+    
+            var marker_6291b8b2c72f8040c2acf7d2e22ae5f0 = L.marker(
+                [40.73443, -73.41637],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_cf69880fe4841ba90ae03b83956ff16b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6291b8b2c72f8040c2acf7d2e22ae5f0.setIcon(icon_cf69880fe4841ba90ae03b83956ff16b);
+        
+    
+        var popup_5cf6540fff0c1fba21a7de545c0996c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd35b60228b4a96f6828ffbce9d6323e = $(`<div id="html_cd35b60228b4a96f6828ffbce9d6323e" style="width: 100.0%; height: 100.0%;">['FARMINGDALE REPUBLIC AIRPORT, NY US', 12.550314744214907]</div>`)[0];
+                popup_5cf6540fff0c1fba21a7de545c0996c2.setContent(html_cd35b60228b4a96f6828ffbce9d6323e);
+            
+        
+
+        marker_6291b8b2c72f8040c2acf7d2e22ae5f0.bindPopup(popup_5cf6540fff0c1fba21a7de545c0996c2)
+        ;
+
+        
+    
+    
+            var marker_29fff98432a35e545c5f379fd7b8291c = L.marker(
+                [40.85055, -72.61928],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_1111de1914fb65ed78b4583068b474f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_29fff98432a35e545c5f379fd7b8291c.setIcon(icon_1111de1914fb65ed78b4583068b474f0);
+        
+    
+        var popup_01327651ca8dc2c1edc19c6f39f1dae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_204b502da380fb8f356b1a33aa700d92 = $(`<div id="html_204b502da380fb8f356b1a33aa700d92" style="width: 100.0%; height: 100.0%;">['WESTHAMPTON GABRESKI AIRPORT, NY US', 11.47243833802352]</div>`)[0];
+                popup_01327651ca8dc2c1edc19c6f39f1dae0.setContent(html_204b502da380fb8f356b1a33aa700d92);
+            
+        
+
+        marker_29fff98432a35e545c5f379fd7b8291c.bindPopup(popup_01327651ca8dc2c1edc19c6f39f1dae0)
+        ;
+
+        
+    
+    
+            var marker_58dd7907632dc8237f1d24e5324693ed = L.marker(
+                [42.4932, -79.27623],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_540caa8ff7a6e8f0444f353fde265a7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_58dd7907632dc8237f1d24e5324693ed.setIcon(icon_540caa8ff7a6e8f0444f353fde265a7a);
+        
+    
+        var popup_b7b72ec6edfc3fe9b9b7d9fff111701c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bef991ff4481218eb84b47bb94c29e2 = $(`<div id="html_4bef991ff4481218eb84b47bb94c29e2" style="width: 100.0%; height: 100.0%;">['DUNKIRK CHAUTAUQUA CO AIRPORT, NY US', 8.637952455893295]</div>`)[0];
+                popup_b7b72ec6edfc3fe9b9b7d9fff111701c.setContent(html_4bef991ff4481218eb84b47bb94c29e2);
+            
+        
+
+        marker_58dd7907632dc8237f1d24e5324693ed.bindPopup(popup_b7b72ec6edfc3fe9b9b7d9fff111701c)
+        ;
+
+        
+    
+    
+            var marker_e0167f56891f49f566f8c744cd917305 = L.marker(
+                [42.85, -73.95],
+                {}
+            ).addTo(map_4862d89b682e779670eeb95fa80b1ffe);
+        
+    
+            var icon_5fe6362ed150cdff147bc829b6a862f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e0167f56891f49f566f8c744cd917305.setIcon(icon_5fe6362ed150cdff147bc829b6a862f1);
+        
+    
+        var popup_a78bd28a8798a9cca0024a8365188757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_835c76a1e72a90417cf01b087e623176 = $(`<div id="html_835c76a1e72a90417cf01b087e623176" style="width: 100.0%; height: 100.0%;">['SCHENECTADY, NY US', 11.42791485244316]</div>`)[0];
+                popup_a78bd28a8798a9cca0024a8365188757.setContent(html_835c76a1e72a90417cf01b087e623176);
+            
+        
+
+        marker_e0167f56891f49f566f8c744cd917305.bindPopup(popup_a78bd28a8798a9cca0024a8365188757)
+        ;
+
+        
+    
+</script>
+</html>
